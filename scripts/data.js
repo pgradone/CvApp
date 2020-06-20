@@ -1,3 +1,5 @@
+// json object built from Europass document xml file
+// this xml standard will no longer valid on 01 Jun 2020!
 const euroPassDocument = [
   {
     '@schemaLocation':
