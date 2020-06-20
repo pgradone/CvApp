@@ -1,0 +1,45 @@
+$main_color: #1e3799
+$secondary_color: #6a89cc
+
+// reset
+*
+  box-sizing: border-box
+  transition-duration: 0.4s
+  margin: 0
+  padding: 0
+
+body
+  background: url('../images/prairie.bmp')
+
+main
+  margin: 20px auto
+  width: 70%
+  min-width: 800px
+  max-width: 1200px
+  background-color: white
+  border: 1px solid grey
+  border-radius: 3px
+  box-shadow: 10px 10px 5px grey
+  padding: 20px
+  display: flex
+  flex-direction: column
+  .identity
+    .name
+      text-align: center
+      font-weight: bold
+    .bottom
+      display: flex
+      justify-content: space-between
+      .contact
+        .address
+          span
+            display: flex
+      .photo
+        img
+          content: url('https://s.gravatar.com/avatar/9157ab2e23bff2f326d1cca434ab4350?s=80')
+
+
+h2
+  background-color: #3459be
+  color: white
+  text-transform: capitalize

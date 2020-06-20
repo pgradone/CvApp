@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Curriculum Vitae</title>
-    <link rel="stylesheet" href="styles/style.sass" />
+    <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
     <header>
@@ -14,24 +14,33 @@
       <section class="identity">
         <article class="name">
           <h1>
-            Name Surname
+            Potito Gradone
+            <!-- `${euroPassDocument.LearnerInfo.Identification.PersonName.FirstName}` -->
           </h1>
         </article>
-        <article class="contact">
-          <div class="contact address">
-            <div class="contact address postcode"></div>
-            <div class="contact address city"></div>
-            <div class="contact address country"></div>
-          </div>
-          <div class="contact media">
-            <!-- ** Contact media to duplicate - phone, email, messaging etc.. ** -->
-            <span
-              ><p class="contact media use"></p>
-              <p class="contact media number"></p
-            ></span>
-          </div>
-        </article>
-        <article class="photo"><img src="" alt="candidate picture" /></article>
+        <div class="identity bottom">
+          <article class="contact">
+            <div class="contact address">
+              <div class="contact address line">Am Hoirbock, 12</div>
+              <span
+                ><p class="contact address postcode">L-8552</p>
+                <p>_</p>
+                <p class="contact address city">Oberpallen</p></span
+              >
+              <div class="contact address country"></div>
+            </div>
+            <div class="contact media">
+              <!-- ** Contact media to duplicate - phone, email, messaging etc.. ** -->
+              <span
+                ><p class="contact media use"></p>
+                <p class="contact media number"></p
+              ></span>
+            </div>
+          </article>
+          <article class="photo">
+            <img src="" alt="candidate picture" />
+          </article>
+        </div>
       </section>
       <section class="objective">
         <article class="objective mission"></article>
@@ -57,7 +66,7 @@
         </article>
       </section>
       <section class="education">
-        <h2>Training and Education</h2>
+        <h2>Training & Educational background</h2>
         <!-- ** Education item to duplicate from Education [] ** -->
         <article class="education item">
           <div class="period">
