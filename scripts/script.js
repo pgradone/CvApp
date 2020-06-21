@@ -38,3 +38,31 @@ function xmlToJson(xml) {
   }
   return obj;
 }
+
+// function to fill from euroPaddDocument
+function fillDataFromeuroPassDocument() {
+  const cvId = euroPassDocument[0].LearnerInfo.Identification;
+  const idHTML = document.querySelector('.identity');
+  idHTML.querySelector('.name h1').textContent =
+    cvId.PersonName.FirstName + ' ' + cvId.PersonName.Surname.toUpperCase();
+  const cvContact = cvId.ContactInfo.Address.Contact;
+  const addressHTML = idHTML.querySelector('.address');
+  addressHTML.querySelector('.line').textContent = cvContact.AddressLine;
+  addressHTML.querySelector('.cpcity').textContent =
+    cvContact.PostalCode + ' ' + cvContact.Municipality;
+  addressHTML.querySelector('.country').textContent = cvContact.Country.Label;
+  const cvTelephones = cvId.ContactInfo.TelephoneList.Telephone;
+  const mediaHTML = idHTML.querySelector('.media');
+  cvTelephones.forEach((phone) => {
+    mediaHTML.insertAdjacentHTML(
+      'beforeEnd',
+      `<p class="media phone number">${phone.Use.Code}:${phone.Contact}</p>`
+    );
+  });
+  mediaHTML.insertAdjacentHTML(
+    'beforeEnd',
+    `<p class="media email number">e-mail:${cvId.ContactInfo.Email.Contact}</p>`
+  );
+}
+
+fillDataFromeuroPassDocument();
