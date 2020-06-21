@@ -310,7 +310,7 @@ const euroPassDocument = [
             Activities:
               '<p>Courses in Natural Sciences for high-school students, classes 8 to 10, MSOffice Suite, Tools for school management</p>',
             Employer: {
-              Name: 'Lycée Technique Mathial Adam',
+              Name: 'Lycée Technique Mathias Adam',
               ContactInfo: {
                 Address: {
                   Contact: {
