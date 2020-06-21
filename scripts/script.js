@@ -93,10 +93,8 @@ function fillDataFromeuroPassDocument() {
     ItemNode.querySelector('.employer .contact .city').textContent =
       item.Employer.ContactInfo.Address.Contact.Municipality;
     console.log(item.Activities);
+    ItemNode.querySelector('.activities').innerHTML = item.Activities;
     console.log(ItemNode.querySelector('.activities'));
-    // experienceItemHTML.ItemNode.querySelector('.activities').append(
-    //   item.Activities
-    // );
   }
   cloneItem.remove();
 }
