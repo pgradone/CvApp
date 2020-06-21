@@ -75,6 +75,20 @@ function fillDataFromeuroPassDocument() {
     'Apply the full efficiency of IT to your business';
   objectiveHTML.querySelector('.jobrelated').textContent =
     cvHeadline.Type.Label + ' : ' + cvHeadline.Description.Label;
+  const cvWorkExperience =
+    euroPassDocument[0].LearnerInfo.WorkExperienceList.WorkExperience;
+  const experienceItemHTML = document.querySelector('.experience');
+  const cloneItem = experienceItemHTML.querySelector('.item');
+  for (const item of cvWorkExperience) {
+    const ItemNode = cloneItem.cloneNode(true);
+    experienceItemHTML.append(ItemNode);
+    const itemFromDate = item.Period.From;
+    console.log(Object.keys(itemFromDate), itemFromDate[0]);
+
+    // const itemFromDate = item.Period.From.nodeValue('@year');
+    ItemNode.querySelector('.period .from').textContent = itemFromDate;
+  }
+  cloneItem.remove();
 }
 
 fillDataFromeuroPassDocument();
