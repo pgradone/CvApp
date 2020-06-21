@@ -10,9 +10,25 @@ $secondary_color: #6a89cc
 
 body
   background: url('../images/prairie.bmp')
+  font-size: 10pt
+
+h1
+  font-size: 12pt
+  font-weight: bold
+
+h2
+  font-size: 12pt
+  font-weight: bold
+  background-color: #3459be
+  color: white
+  text-transform: capitalize
+
+p
+  margin-bottom: 0
 
 main
-  margin: 20px auto
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+  margin: 40px auto
   width: 90%
   min-width: 800px
   max-width: 1000px
@@ -20,7 +36,7 @@ main
   border: 1px solid grey
   border-radius: 3px
   box-shadow: 10px 10px 5px grey
-  padding: 20px
+  padding: 50px
   .identity
     .candidatename
       text-align: center
@@ -28,6 +44,7 @@ main
     .candidatecard
       display: flex
       justify-content: space-between
+      font-style: italic
       .contact
         .media
           display: flex
@@ -38,15 +55,31 @@ main
   .objective
     text-align: center
     font-weight: bold
-
-
-h1
-  font-size: 2rem
-
-h2
-  background-color: #3459be
-  color: white
-  text-transform: capitalize
-
-p
-  margin-bottom: 0
+    font-style: italic
+    font-size: 12pt
+  .experience
+    .item
+      margin-top: 0.5rem
+      .line
+        display: flex
+      .period
+        display: flex
+        width: 20%
+      .position
+        // margin-left: 3rem
+        font-weight: bold
+        text-transform: uppercase
+        text-decoration: underline
+        width: 40%
+      .employer
+        display: flex
+        // margin-left: 1rem
+        .contact
+          display: flex
+          // margin-left: 1rem
+          .city
+            margin-left: 1rem
+          .country
+            margin-left: 1rem
+      .activities
+        margin-top: 0.25rem

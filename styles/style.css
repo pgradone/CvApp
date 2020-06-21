@@ -9,10 +9,29 @@
 
 body {
   background: url("../images/prairie.bmp");
+  font-size: 10pt;
+}
+
+h1 {
+  font-size: 12pt;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 12pt;
+  font-weight: bold;
+  background-color: #3459be;
+  color: white;
+  text-transform: capitalize;
+}
+
+p {
+  margin-bottom: 0;
 }
 
 main {
-  margin: 20px auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 40px auto;
   width: 90%;
   min-width: 800px;
   max-width: 1000px;
@@ -21,7 +40,7 @@ main {
   border-radius: 3px;
   -webkit-box-shadow: 10px 10px 5px grey;
           box-shadow: 10px 10px 5px grey;
-  padding: 20px;
+  padding: 50px;
 }
 
 main .identity .candidatename {
@@ -36,6 +55,7 @@ main .identity .candidatecard {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  font-style: italic;
 }
 
 main .identity .candidatecard .contact .media {
@@ -55,19 +75,55 @@ main .identity .candidatecard .photo img {
 main .objective {
   text-align: center;
   font-weight: bold;
+  font-style: italic;
+  font-size: 12pt;
 }
 
-h1 {
-  font-size: 2rem;
+main .experience .item {
+  margin-top: 0.5rem;
 }
 
-h2 {
-  background-color: #3459be;
-  color: white;
-  text-transform: capitalize;
+main .experience .item .line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-p {
-  margin-bottom: 0;
+main .experience .item .period {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 20%;
+}
+
+main .experience .item .position {
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: underline;
+  width: 40%;
+}
+
+main .experience .item .employer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .experience .item .employer .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .experience .item .employer .contact .city {
+  margin-left: 1rem;
+}
+
+main .experience .item .employer .contact .country {
+  margin-left: 1rem;
+}
+
+main .experience .item .activities {
+  margin-top: 0.25rem;
 }
 /*# sourceMappingURL=style.css.map */
