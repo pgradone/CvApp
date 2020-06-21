@@ -22,13 +22,6 @@ main {
   -webkit-box-shadow: 10px 10px 5px grey;
           box-shadow: 10px 10px 5px grey;
   padding: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
 }
 
 main .identity .name {
@@ -45,10 +38,14 @@ main .identity .bottom {
           justify-content: space-between;
 }
 
-main .identity .bottom .contact .address span {
+main .identity .bottom .contact .media {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 main .identity .bottom .photo img {
@@ -63,5 +60,9 @@ h2 {
   background-color: #3459be;
   color: white;
   text-transform: capitalize;
+}
+
+p {
+  margin-bottom: 0;
 }
 /*# sourceMappingURL=style.css.map */
