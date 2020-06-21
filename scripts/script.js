@@ -93,12 +93,32 @@ function fillDataFromeuroPassDocument() {
     ItemNode.querySelector('.employer .name').textContent = item.Employer.Name;
     ItemNode.querySelector('.employer .contact .city').textContent =
       item.Employer.ContactInfo.Address.Contact.Municipality;
-    console.log(item.Activities);
     ItemNode.querySelector('.activities').innerHTML = item.Activities;
-    console.log(ItemNode.querySelector('.activities'));
   }
   cloneItem.remove();
   // Education
+  const cvEdu = euroPassDocument[0].LearnerInfo.EducationList.Education;
+  const eduItemHTML = document.querySelector('.education');
+  const eduCloneItem = eduItemHTML.querySelector('.item');
+  for (const item of cvEdu) {
+    const ItemNode = eduCloneItem.cloneNode(true);
+    eduItemHTML.append(ItemNode);
+    const itemFromDate = item.Period.From;
+    ItemNode.querySelector('.period .from').textContent =
+      itemFromDate['@month'].substr(2, 2) + '-' + itemFromDate['@year'];
+    const itemToDate = item.Period.To;
+    ItemNode.querySelector('.period .to').textContent =
+      itemToDate['@month'].substr(2, 2) + '-' + itemToDate['@year'];
+    ItemNode.querySelector('.title').textContent = item.Title;
+    ItemNode.querySelector('.organisation .name').textContent =
+      item.Organisation.Name;
+    ItemNode.querySelector('.organisation .contact .city').textContent =
+      item.Organisation.ContactInfo.Address.Contact.Municipality;
+    ItemNode.querySelector('.activities').innerHTML = item.Activities;
+    console.log(item);
+    console.log(ItemNode);
+  }
+  eduCloneItem.remove();
 }
 
 fillDataFromeuroPassDocument();
