@@ -24,12 +24,12 @@ main {
   padding: 20px;
 }
 
-main .identity .name {
+main .identity .candidatename {
   text-align: center;
   font-weight: bold;
 }
 
-main .identity .bottom {
+main .identity .candidatecard {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -38,7 +38,7 @@ main .identity .bottom {
           justify-content: space-between;
 }
 
-main .identity .bottom .contact .media {
+main .identity .candidatecard .contact .media {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -48,7 +48,7 @@ main .identity .bottom .contact .media {
           flex-direction: column;
 }
 
-main .identity .bottom .photo img {
+main .identity .candidatecard .photo img {
   content: url("https://s.gravatar.com/avatar/9157ab2e23bff2f326d1cca434ab4350?s=80");
 }
 

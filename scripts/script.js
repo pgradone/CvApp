@@ -43,16 +43,16 @@ function xmlToJson(xml) {
 function fillDataFromeuroPassDocument() {
   const cvId = euroPassDocument[0].LearnerInfo.Identification;
   const idHTML = document.querySelector('.identity');
-  idHTML.querySelector('.name h1').textContent =
+  idHTML.querySelector('.candidatename h1').textContent =
     cvId.PersonName.FirstName + ' ' + cvId.PersonName.Surname.toUpperCase();
   const cvContact = cvId.ContactInfo.Address.Contact;
-  const addressHTML = idHTML.querySelector('.address');
+  const addressHTML = idHTML.querySelector('.candidatecard .contact .address');
   addressHTML.querySelector('.line').textContent = cvContact.AddressLine;
   addressHTML.querySelector('.cpcity').textContent =
     cvContact.PostalCode + ' ' + cvContact.Municipality;
   addressHTML.querySelector('.country').textContent = cvContact.Country.Label;
   const cvTelephones = cvId.ContactInfo.TelephoneList.Telephone;
-  const mediaHTML = idHTML.querySelector('.media');
+  const mediaHTML = idHTML.querySelector('.candidatecard .contact .media');
   cvTelephones.forEach((phone) => {
     mediaHTML.insertAdjacentHTML(
       'beforeEnd',
