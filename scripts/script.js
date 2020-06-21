@@ -63,6 +63,13 @@ function fillDataFromeuroPassDocument() {
     'beforeEnd',
     `<p class="media email number">e-mail:${cvId.ContactInfo.Email.Contact}</p>`
   );
+  const cvInstantMessaging =
+    cvId.ContactInfo.InstantMessagingList.InstantMessaging;
+    mediaHTML.insertAdjacentHTML(
+      'beforeEnd',
+      `<p class="media phone number">${InstantMessaging.Use.Label}:${InstantMessaging.Use.Contact}</p>`
+   
+
 }
 
 fillDataFromeuroPassDocument();

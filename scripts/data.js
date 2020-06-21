@@ -1,4 +1,5 @@
 // json object built from Europass document xml file
+// using https://www.freeformatter.com/xml-to-json-converter.html
 // this xml standard will no longer valid on 01 Jun 2020!
 const euroPassDocument = [
   {
