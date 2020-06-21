@@ -83,10 +83,11 @@ function fillDataFromeuroPassDocument() {
     const ItemNode = cloneItem.cloneNode(true);
     experienceItemHTML.append(ItemNode);
     const itemFromDate = item.Period.From;
-    console.log(Object.keys(itemFromDate), itemFromDate[0]);
-
-    // const itemFromDate = item.Period.From.nodeValue('@year');
-    ItemNode.querySelector('.period .from').textContent = itemFromDate;
+    ItemNode.querySelector('.period .from').textContent =
+      itemFromDate['@month'].substr(2, 2) + '-' + itemFromDate['@year'];
+    const itemToDate = item.Period.To;
+    ItemNode.querySelector('.period .to').textContent =
+      itemToDate['@month'].substr(2, 2) + '-' + itemToDate['@year'];
   }
   cloneItem.remove();
 }
