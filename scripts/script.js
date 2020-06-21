@@ -65,11 +65,16 @@ function fillDataFromeuroPassDocument() {
   );
   const cvInstantMessaging =
     cvId.ContactInfo.InstantMessagingList.InstantMessaging;
-    mediaHTML.insertAdjacentHTML(
-      'beforeEnd',
-      `<p class="media phone number">${InstantMessaging.Use.Label}:${InstantMessaging.Use.Contact}</p>`
-   
-
+  mediaHTML.insertAdjacentHTML(
+    'beforeEnd',
+    `<p class="media phone number">${cvInstantMessaging.Use.Label}:${cvInstantMessaging.Use.Contact}</p>`
+  );
+  const cvHeadline = euroPassDocument[0].LearnerInfo.Headline;
+  const objectiveHTML = document.querySelector('.objective');
+  objectiveHTML.querySelector('.mission').textContent =
+    'Apply the full efficiency of IT to your business';
+  objectiveHTML.querySelector('.jobrelated').textContent =
+    cvHeadline.Type.Label + ' : ' + cvHeadline.Description.Label;
 }
 
 fillDataFromeuroPassDocument();
