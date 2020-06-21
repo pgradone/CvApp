@@ -88,6 +88,15 @@ function fillDataFromeuroPassDocument() {
     const itemToDate = item.Period.To;
     ItemNode.querySelector('.period .to').textContent =
       itemToDate['@month'].substr(2, 2) + '-' + itemToDate['@year'];
+    ItemNode.querySelector('.position').textContent = item.Position.Label;
+    ItemNode.querySelector('.employer .name').textContent = item.Employer.Name;
+    ItemNode.querySelector('.employer .contact .city').textContent =
+      item.Employer.ContactInfo.Address.Contact.Municipality;
+    console.log(item.Activities);
+    console.log(ItemNode.querySelector('.activities'));
+    // experienceItemHTML.ItemNode.querySelector('.activities').append(
+    //   item.Activities
+    // );
   }
   cloneItem.remove();
 }
