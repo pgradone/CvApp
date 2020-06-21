@@ -126,4 +126,52 @@ main .experience .item .employer .contact .country {
 main .experience .item .activities {
   margin-top: 0.25rem;
 }
+
+main .education .item {
+  margin-top: 0.5rem;
+}
+
+main .education .item .line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .education .item .period {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 20%;
+}
+
+main .education .item .title {
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: underline;
+  width: 40%;
+}
+
+main .education .item .organisation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .education .item .organisation .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .education .item .organisation .contact .city {
+  margin-left: 1rem;
+}
+
+main .education .item .organisation .contact .country {
+  margin-left: 1rem;
+}
+
+main .education .item .activities {
+  margin-top: 0.25rem;
+}
 /*# sourceMappingURL=style.css.map */
