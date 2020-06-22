@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/pgradone/CvApp/issues"
   },
-  "homepage": "https://github.com/pgradone/CvApp#readme"
+  "homepage": "https://github.com/pgradone/CvApp#readme",
+  "dependencies": {
+    "electron": "^9.0.4"
+  }
 }
