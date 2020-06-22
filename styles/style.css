@@ -68,7 +68,14 @@ main .identity .candidatecard .contact .media {
           flex-direction: column;
 }
 
+main .identity .candidatecard .photo {
+  width: 200px;
+}
+
 main .identity .candidatecard .photo img {
+  height: 100%;
+  display: block;
+  margin-left: auto;
   content: url("https://s.gravatar.com/avatar/9157ab2e23bff2f326d1cca434ab4350?s=80");
 }
 
