@@ -1,0 +1,26 @@
+{
+  "name": "cvapp",
+  "version": "1.0.0",
+  "description": "CV Builder Desktop Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pgradone/CvApp.git"
+  },
+  "keywords": [
+    "CV",
+    "generator",
+    "json",
+    "application",
+    "electron"
+  ],
+  "author": "pgradone",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pgradone/CvApp/issues"
+  },
+  "homepage": "https://github.com/pgradone/CvApp#readme"
+}

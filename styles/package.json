@@ -1,0 +1,14 @@
+{
+  "name": "CvApp",
+  "version": "1.0.0",
+  "description": "Desktop application",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "pgradone",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^9.0.4"
+  }
+}
