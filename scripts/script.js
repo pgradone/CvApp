@@ -119,6 +119,7 @@ function fillDataFromeuroPassDocument() {
     ItemNode.querySelector(".organisation .contact .city").textContent =
       item.Organisation.ContactInfo.Address.Contact.Municipality;
     ItemNode.querySelector(".activities").innerHTML = item.Activities;
+    // Skills
   }
   eduCloneItem.remove();
 }
