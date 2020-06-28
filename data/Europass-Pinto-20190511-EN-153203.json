@@ -1,0 +1,517 @@
+{
+  "SkillsPassport": {
+    "Locale": "en",
+    "DocumentInfo": {
+      "DocumentType": "ECV",
+      "CreationDate": "2019-05-11T09:20:50.659Z",
+      "LastUpdateDate": "2019-11-25T10:57:52.005Z",
+      "XSDVersion": "V3.3",
+      "Generator": "EWA",
+      "Comment": "Europass CV",
+      "EuropassLogo": true,
+      "Document": []
+    },
+    "PrintingPreferences": {
+      "ECV": [
+        {
+          "name": "LearnerInfo",
+          "order": "Identification Headline WorkExperience Education Skills Achievement ReferenceTo",
+          "pageBreaks": "WorkEducation"
+        },
+        {
+          "name": "LearnerInfo.Identification"
+        },
+        {
+          "name": "LearnerInfo.Identification.PersonName",
+          "show": true,
+          "order": "FirstName Surname"
+        },
+        {
+          "name": "LearnerInfo.Identification.Demographics"
+        },
+        {
+          "name": "LearnerInfo.Identification.Demographics.Birthdate",
+          "format": "numeric/long"
+        },
+        {
+          "name": "LearnerInfo.WorkExperience"
+        },
+        {
+          "name": "LearnerInfo.WorkExperience"
+        },
+        {
+          "name": "LearnerInfo.WorkExperience[0]"
+        },
+        {
+          "name": "LearnerInfo.WorkExperience[0].Period",
+          "format": "numeric/long"
+        },
+        {
+          "name": "LearnerInfo.WorkExperience[1]"
+        },
+        {
+          "name": "LearnerInfo.WorkExperience[1].Period",
+          "format": "numeric/long"
+        },
+        {
+          "name": "LearnerInfo.WorkExperience[2]"
+        },
+        {
+          "name": "LearnerInfo.WorkExperience[2].Period",
+          "format": "numeric/long"
+        },
+        {
+          "name": "LearnerInfo.WorkExperience[3]"
+        },
+        {
+          "name": "LearnerInfo.WorkExperience[3].Period",
+          "format": "numeric/long"
+        },
+        {
+          "name": "LearnerInfo.WorkExperience[4]"
+        },
+        {
+          "name": "LearnerInfo.WorkExperience[4].Period",
+          "format": "numeric/long"
+        },
+        {
+          "name": "LearnerInfo.WorkExperience[5]"
+        },
+        {
+          "name": "LearnerInfo.WorkExperience[5].Period",
+          "format": "numeric/long"
+        },
+        {
+          "name": "LearnerInfo.Education"
+        },
+        {
+          "name": "LearnerInfo.Education"
+        },
+        {
+          "name": "LearnerInfo.Education[0]"
+        },
+        {
+          "name": "LearnerInfo.Education[0].Period",
+          "format": "numeric/long"
+        },
+        {
+          "name": "LearnerInfo.Education[1]"
+        },
+        {
+          "name": "LearnerInfo.Education[1].Period",
+          "format": "numeric/long"
+        },
+        {
+          "name": "LearnerInfo.Education[2]"
+        },
+        {
+          "name": "LearnerInfo.Education[2].Period",
+          "format": "numeric/long"
+        },
+        {
+          "name": "LearnerInfo.Skills"
+        },
+        {
+          "name": "LearnerInfo.Skills.Linguistic"
+        },
+        {
+          "name": "LearnerInfo.Skills.Linguistic.ForeignLanguage"
+        },
+        {
+          "name": "LearnerInfo.Skills.Linguistic.ForeignLanguage"
+        }
+      ]
+    },
+    "LearnerInfo": {
+      "Identification": {
+        "PersonName": {
+          "FirstName": "Eduardo",
+          "Surname": "Pinto"
+        },
+        "ContactInfo": {
+          "Address": {
+            "Contact": {
+              "AddressLine": "4, Avenue Pat Barron",
+              "PostalCode": "5629",
+              "Municipality": "Mondorf-Les-Bains",
+              "Country": {
+                "Label": "Luxembourg",
+                "Code": "LU"
+              }
+            }
+          },
+          "Telephone": [
+            {
+              "Use": {
+                "Code": "mobile",
+                "Label": "Mobile"
+              },
+              "Contact": "(+352) 621 761 523"
+            }
+          ],
+          "Email": {
+            "Contact": "pintoedu@gmail.com"
+          }
+        },
+        "Photo": {
+          "MimeType": "image/jpeg",
+          "TempURI": "https://europass.cedefop.europa.eu/api/files/photo/7215FA4C-4406-4E59-9E9A-EC327F04249E.17545D6A5EF274C0F863A0DFEA96EC811572267854276.image_jpeg",
+          "Metadata": [
+            {
+              "Key": "dimension",
+              "Value": "1512x1741"
+            },
+            {
+              "Key": "number-of-pages",
+              "Value": "1"
+            },
+            {
+              "Key": "cropping",
+              "Value": "{\"width\":125,\"height\":144,\"x\":8,\"y\":8,\"x2\":103,\"y2\":118,\"ox\":90.88263207845617,\"oy\":100.4423076923077,\"ox2\":\"1512\",\"oy2\":\"1741\"}"
+            },
+            {
+              "Key": "scaling",
+              "Value": "{\"withinDimensions\":false,\"scale\":{\"boxWidth\":0,\"boxHeight\":364}}"
+            }
+          ]
+        }
+      },
+      "WorkExperience": [
+        {
+          "Period": {
+            "From": {
+              "Month": 12,
+              "Year": 2017
+            },
+            "Current": true
+          },
+          "Position": {
+            "Label": "Radio producer",
+            "Code": "ce7d3362-5383-47d1-b66f-57b021c3d862"
+          },
+          "Employer": {
+            "Name": "Luxemburger Wort - Radio Latina",
+            "ContactInfo": {
+              "Address": {
+                "Contact": {
+                  "Municipality": "Luxembourg",
+                  "Country": {
+                    "Label": "Luxembourg",
+                    "Code": "LU"
+                  }
+                }
+              }
+            }
+          },
+          "Activities": "<p>- Radio announcer and reporter</p><p>- Music Programmer</p><p>- Content Producer and Creative Writing</p><p>- Sound Engineer</p>"
+        },
+        {
+          "Period": {
+            "From": {
+              "Year": 2010,
+              "Month": 6
+            },
+            "To": {
+              "Year": 2017,
+              "Month": 11
+            },
+            "Current": false
+          },
+          "Position": {
+            "Label": "TV and Radio Reporter"
+          },
+          "Activities": "<p>- Radio reporter and announcer</p><p>- TV reporter and announcer / Voice Over</p><p>- Content Producer and Creative Writing</p>",
+          "Employer": {
+            "Name": "RTP - Radio e Televisao Portugal",
+            "ContactInfo": {
+              "Address": {
+                "Contact": {
+                  "Municipality": "Lisbon",
+                  "Country": {
+                    "Code": "PT",
+                    "Label": "Portugal"
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "Period": {
+            "From": {
+              "Year": 2009,
+              "Month": 2
+            },
+            "To": {
+              "Year": 2012,
+              "Month": 6
+            },
+            "Current": false
+          },
+          "Position": {
+            "Label": "TV Reporter"
+          },
+          "Activities": "<p>- News reporter (social events)</p><p>- TV announcer / Voice Over</p><p>- Content Producer and Creative Writing</p>",
+          "Employer": {
+            "Name": "TVI - Televisao Independente",
+            "ContactInfo": {
+              "Address": {
+                "Contact": {
+                  "Municipality": "Lisbon",
+                  "Country": {
+                    "Code": "PT",
+                    "Label": "Portugal"
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "Period": {
+            "From": {
+              "Year": 2005,
+              "Month": 5
+            },
+            "To": {
+              "Year": 2010,
+              "Month": 4
+            },
+            "Current": false
+          },
+          "Position": {
+            "Label": "Radio announcer"
+          },
+          "Activities": "<p>- Radio reporter and announcer</p><p>- Content Producer and Creative Writing</p>",
+          "Employer": {
+            "Name": "R/Com - Radio Renascenca / RFM",
+            "ContactInfo": {
+              "Address": {
+                "Contact": {
+                  "Municipality": "Lisbon",
+                  "Country": {
+                    "Code": "PT",
+                    "Label": "Portugal"
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "Period": {
+            "From": {
+              "Year": 2004,
+              "Month": 9
+            },
+            "To": {
+              "Year": 2005,
+              "Month": 4
+            },
+            "Current": false
+          },
+          "Position": {
+            "Code": "aaeec9a7-dc57-4485-890c-86b3eef735f9",
+            "Label": "ICT help desk agent"
+          },
+          "Activities": "<p>- Microsoft Helpdesk Specialist</p><p>- MS Windows Supervision</p><p>- Controlling and incident reporting</p>",
+          "Employer": {
+            "Name": "Microsoft Spain - Stream",
+            "ContactInfo": {
+              "Address": {
+                "Contact": {
+                  "Municipality": "A Coruna",
+                  "Country": {
+                    "Code": "ES",
+                    "Label": "Spain"
+                  }
+                }
+              }
+            }
+          }
+        },
+        {
+          "Period": {
+            "From": {
+              "Year": 1999,
+              "Month": 4
+            },
+            "To": {
+              "Year": 2004,
+              "Month": 9
+            },
+            "Current": false
+          },
+          "Position": {
+            "Code": "b2e81332-0972-4e0f-9a4d-1d15c9c9513b",
+            "Label": "Back office specialist"
+          },
+          "Activities": "<p>- Back-Office and Helpdesk Technician</p><p>- Configuring users services and reporting incidents</p><p>- Administrative duties</p>",
+          "Employer": {
+            "Name": "Vodafone",
+            "ContactInfo": {
+              "Address": {
+                "Contact": {
+                  "Municipality": "Lisbon",
+                  "Country": {
+                    "Code": "PT",
+                    "Label": "Portugal"
+                  }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "Education": [
+        {
+          "Period": {
+            "From": {
+              "Month": 9,
+              "Year": 2007
+            },
+            "To": {
+              "Month": 7,
+              "Year": 2010
+            }
+          },
+          "Title": "IT Programming and System Analysis",
+          "Organisation": {
+            "Name": "ESTA - Escola Superior Tecnologia Abrantes",
+            "ContactInfo": {
+              "Address": {
+                "Contact": {
+                  "Municipality": "Tomar",
+                  "Country": {
+                    "Label": "Portugal",
+                    "Code": "PT"
+                  }
+                }
+              }
+            }
+          },
+          "Activities": "<p>- MS Windows and Office applications</p><p>- Linux Ubuntu configuration and Terminal execution</p><p>- Programming in C#, SQL, Flash, HTML, CSS,&nbsp;RSS, XML and JavaScript</p><p>- Photoshop, Illustrator, Dreamweaver</p><p>- Network setup and monitoring</p>"
+        },
+        {
+          "Period": {
+            "From": {
+              "Month": 9,
+              "Year": 1997
+            },
+            "To": {
+              "Month": 7,
+              "Year": 2001
+            }
+          },
+          "Title": "Communication and Public Relations",
+          "Organisation": {
+            "Name": "INP - Instituto Novas Profissoes (Universidade Lusofona)",
+            "ContactInfo": {
+              "Address": {
+                "Contact": {
+                  "Municipality": "Lisbon",
+                  "Country": {
+                    "Label": "Portugal",
+                    "Code": "PT"
+                  }
+                }
+              }
+            }
+          },
+          "Activities": "<p>Main studies:</p><p>- Marketing and Advertising</p><p>- Public Relations</p><p>- History and Communication</p><p>- Economics and Mathematics applied to Statistics</p>"
+        },
+        {
+          "Period": {
+            "From": {
+              "Month": 10,
+              "Year": 2001
+            },
+            "To": {
+              "Month": 7,
+              "Year": 2003
+            }
+          },
+          "Title": "Audio Engineering",
+          "Organisation": {
+            "Name": "ETIC - Escola Tecnica Imagem e Comunicacao",
+            "ContactInfo": {
+              "Address": {
+                "Contact": {
+                  "Municipality": "Lisbon",
+                  "Country": {
+                    "Label": "Portugal",
+                    "Code": "PT"
+                  }
+                }
+              }
+            }
+          },
+          "Activities": "<p class=\"indent1\">- Audio production and post-production</p><p class=\"indent1\">- Editing, compiling, frame timing and pitch correction</p><p class=\"indent1\">- Sound effects</p><p class=\"indent1\">- Acoustic and instruments</p><p>&nbsp;</p>"
+        }
+      ],
+      "Skills": {
+        "Linguistic": {
+          "MotherTongue": [
+            {
+              "Description": {
+                "Code": "pt",
+                "Label": "Portuguese"
+              }
+            }
+          ],
+          "ForeignLanguage": [
+            {
+              "Description": {
+                "Label": "English",
+                "Code": "en"
+              },
+              "ProficiencyLevel": {
+                "Listening": "C2",
+                "Reading": "C2",
+                "SpokenInteraction": "C2",
+                "SpokenProduction": "C2",
+                "Writing": "C2"
+              }
+            },
+            {
+              "Description": {
+                "Code": "es",
+                "Label": "Spanish"
+              },
+              "ProficiencyLevel": {
+                "Listening": "C2",
+                "Reading": "C2",
+                "SpokenInteraction": "C2",
+                "SpokenProduction": "C2",
+                "Writing": "B2"
+              }
+            },
+            {
+              "Description": {
+                "Code": "fr",
+                "Label": "French"
+              },
+              "ProficiencyLevel": {
+                "Listening": "B2",
+                "Reading": "B2",
+                "SpokenInteraction": "B1",
+                "SpokenProduction": "B1",
+                "Writing": "B2"
+              }
+            }
+          ]
+        },
+        "Computer": {
+          "ProficiencyLevel": {
+            "Information": "C",
+            "Communication": "C",
+            "ContentCreation": "C",
+            "Safety": "C",
+            "ProblemSolving": "C"
+          }
+        }
+      }
+    },
+    "CoverLetter": {}
+  }
+}
