@@ -24,6 +24,10 @@
   },
   "homepage": "https://github.com/pgradone/CvApp#readme",
   "dependencies": {
-    "electron": "^9.0.4"
+    "electron": "^9.0.4",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "require": "^2.4.20",
+    "requirejs": "^2.3.6"
   }
 }
