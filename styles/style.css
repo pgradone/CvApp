@@ -23,14 +23,16 @@ header nav {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  position: static;
+  position: fixed;
+  top: 0;
   width: 100%;
   background-color: #1b47c0;
+  color: white;
 }
 
 header nav a {
-  text-decoration: none;
   color: white;
+  text-decoration: none;
   text-transform: uppercase;
 }
 
