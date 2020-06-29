@@ -8,9 +8,35 @@ $secondary_color: #6a89cc
   margin: 0
   padding: 0
 
+html
+  scroll-behavior: smooth
+
 body
   background: url('../images/prairie.bmp')
   font-size: 10pt
+
+header
+  nav
+    display: flex
+    justify-content: space-between
+    position: static
+    // height: 6vh
+    width: 100%
+    background-color: #1b47c0
+    a
+      text-decoration: none
+      color: white
+      text-transform: uppercase
+
+    .menu
+      align-self: center
+      ul
+        padding: 0
+        margin: 0
+        display: flex
+        list-style: none
+        li
+          margin-right: 1.5rem
 
 h1
   font-size: 12pt
