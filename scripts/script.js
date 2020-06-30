@@ -10,7 +10,7 @@ console.log(url);
 
 // function to fill from euroPaddDocument
 function fillDataFromeuroPassDocument() {
-  const cvId = euroPassDocument[0].LearnerInfo.Identification;
+  const cvId = euroPassDocument01[0].LearnerInfo.Identification;
   const idHTML = document.querySelector('.identity');
   idHTML.querySelector('.candidatename h1').textContent =
     cvId.PersonName.FirstName + ' ' + cvId.PersonName.Surname.toUpperCase();
