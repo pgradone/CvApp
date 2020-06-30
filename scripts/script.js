@@ -38,7 +38,7 @@ function fillDataFromeuroPassDocument() {
     'beforeEnd',
     `<p class="media phone number">${cvInstantMessaging.Use.Label}:${cvInstantMessaging.Contact}</p>`
   );
-  const cvHeadline = euroPassDocument[0].LearnerInfo.Headline;
+  const cvHeadline = euroPassDocument01[0].LearnerInfo.Headline;
   const objectiveHTML = document.querySelector('.objective');
   objectiveHTML.querySelector('.mission').textContent =
     'Apply the full efficiency of IT to your business';
@@ -46,7 +46,7 @@ function fillDataFromeuroPassDocument() {
     cvHeadline.Type.Label + ' : ' + cvHeadline.Description.Label;
   // Work Experience
   const cvWorkExperience =
-    euroPassDocument[0].LearnerInfo.WorkExperienceList.WorkExperience;
+    euroPassDocument01[0].LearnerInfo.WorkExperienceList.WorkExperience;
   const experienceItemHTML = document.querySelector('.experience');
   const cloneItem = experienceItemHTML.querySelector('.item');
   for (const item of cvWorkExperience) {
@@ -66,7 +66,7 @@ function fillDataFromeuroPassDocument() {
   }
   cloneItem.remove();
   // Education
-  const cvEdu = euroPassDocument[0].LearnerInfo.EducationList.Education;
+  const cvEdu = euroPassDocument01[0].LearnerInfo.EducationList.Education;
   const eduItemHTML = document.querySelector('.education');
   const eduCloneItem = eduItemHTML.querySelector('.item');
   for (const item of cvEdu) {
