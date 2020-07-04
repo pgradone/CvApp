@@ -12,8 +12,9 @@ console.log(url);
 function fillDataFromeuroPassDocument() {
   const cvId = euroPassDocument01[0].LearnerInfo.Identification;
   const idHTML = document.querySelector('.identity');
-  idHTML.querySelector('.candidatename h1').textContent =
+  idHTML.querySelector('.namesurname').textContent =
     cvId.PersonName.FirstName + ' ' + cvId.PersonName.Surname.toUpperCase();
+  idHTML.querySelector('.candidatetitle').textContent = cvId.Title;
   const cvContact = cvId.ContactInfo.Address.Contact;
   const addressHTML = idHTML.querySelector('.candidatecard .contact .address');
   addressHTML.querySelector('.line').textContent = cvContact.AddressLine;
@@ -40,10 +41,11 @@ function fillDataFromeuroPassDocument() {
   );
   const cvHeadline = euroPassDocument01[0].LearnerInfo.Headline;
   const objectiveHTML = document.querySelector('.objective');
-  objectiveHTML.querySelector('.mission').textContent =
-    'Apply the full efficiency of IT to your business';
   objectiveHTML.querySelector('.jobrelated').textContent =
-    cvHeadline.Type.Label + ' : ' + cvHeadline.Description.Label;
+    cvHeadline.Description.Label;
+  // cvHeadline.Type.Label + ' : ' + cvHeadline.Description.Label;
+  objectiveHTML.querySelector('.mission').textContent =
+    cvHeadline.Description.Mission;
   // Work Experience
   const cvWorkExperience =
     euroPassDocument01[0].LearnerInfo.WorkExperienceList.WorkExperience;

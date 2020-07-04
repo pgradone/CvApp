@@ -130,6 +130,7 @@ const euroPassDocument01 = [
           FirstName: 'Potito',
           Surname: 'Gradone',
         },
+        Title: 'Senior IT Consultant',
         ContactInfo: {
           Address: {
             Contact: {
@@ -217,7 +218,9 @@ const euroPassDocument01 = [
           Label: 'POSTE VISÉ',
         },
         Description: {
-          Label: 'COM/TA/AST/02/20 - 4',
+          Label: 'Full-Stack developer',
+          Mission:
+            'The full competence of leading-edge digital technology at your service',
         },
       },
       WorkExperienceList: {
