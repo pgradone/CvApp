@@ -14,6 +14,7 @@ function fillDataFromeuroPassDocument() {
   const idHTML = document.querySelector('.identity');
   idHTML.querySelector('.namesurname').textContent =
     cvId.PersonName.FirstName + ' ' + cvId.PersonName.Surname.toUpperCase();
+  idHTML.querySelector('.candidatecard .photo img').src = cvId.PhotoURL;
   idHTML.querySelector('.candidatetitle').textContent = cvId.Title;
   const cvContact = cvId.ContactInfo.Address.Contact;
   const addressHTML = idHTML.querySelector('.candidatecard .contact .address');
@@ -41,10 +42,9 @@ function fillDataFromeuroPassDocument() {
   );
   const cvSocialNetworking = cvId.ContactInfo.SocialNetworking;
   cvSocialNetworking.forEach((socialitem) => {
-    console.log(socialitem);
     mediaHTML.insertAdjacentHTML(
       'beforeEnd',
-      `<p class="media social">${socialitem.Label}:${socialitem.url}</p>`
+      `<p class="media social"><span>${socialitem.Label}:<a href="${socialitem.url}">${socialitem.url}</a></span></p>`
     );
   });
   const cvHeadline = euroPassDocument01[0].LearnerInfo.Headline;

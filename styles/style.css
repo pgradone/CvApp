@@ -114,6 +114,10 @@ main .identity .candidatecard {
   font-style: italic;
 }
 
+main .identity .candidatecard .contact .address {
+  margin-bottom: 0.5rem;
+}
+
 main .identity .candidatecard .contact .media {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -129,10 +133,9 @@ main .identity .candidatecard .photo {
 }
 
 main .identity .candidatecard .photo img {
-  height: 100%;
+  height: 80%;
   display: block;
   margin-left: auto;
-  content: url("https://s.gravatar.com/avatar/9157ab2e23bff2f326d1cca434ab4350?s=80");
 }
 
 main .objective {
