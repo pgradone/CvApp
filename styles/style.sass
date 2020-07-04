@@ -12,7 +12,7 @@ html
   scroll-behavior: smooth
 
 body
-  background: url('../images/prairie.bmp')
+  background: url('../images/borg_pattern_wallpaper.jpg')
   font-size: 10pt
 
 header
@@ -21,10 +21,14 @@ header
     justify-content: space-between
     position: fixed
     top: 0
-    height: 12vh
+    height: 8vh
     width: 100%
-    background-color: #1b47c0
+    background-color: #5c83ee
     color: white
+    border: 2px solid grey
+    box-shadow: 5px 5px 3px grey
+    background: linear-gradient(to bottom right, rgb(250,50,50), rgb(50,150,250))
+    z-index: 1
     a
       color: white
       text-decoration: none
@@ -62,15 +66,20 @@ p
 
 main
   font-family: Verdana, Geneva, Tahoma, sans-serif
-  margin: 40px auto
+  margin: 12vh auto
   width: 90%
   min-width: 800px
   max-width: 1000px
-  background-color: white
+  color: white
+  opacity: 0.95
+  background: url('../images/prairie.bmp')
   border: 1px solid grey
   border-radius: 3px
   box-shadow: 10px 10px 5px grey
   padding: 50px
+  a
+    color: #ddd
+    // text-decoration: none
   .identity
     .candidate
       text-align: center
@@ -151,3 +160,14 @@ main
               margin-left: 1rem
       .activities
         margin-top: 0.25rem
+
+// main::before 
+//   content: ""
+//   background: url('../images/prairie.bmp')
+//   opacity: 0.4
+//   top: 0
+//   left: 0
+//   bottom: 0
+//   right: 0
+//   position: absolute
+//   z-index: -1

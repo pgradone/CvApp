@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  background: url("../images/prairie.bmp");
+  background: url("../images/borg_pattern_wallpaper.jpg");
   font-size: 10pt;
 }
 
@@ -25,10 +25,16 @@ header nav {
           justify-content: space-between;
   position: fixed;
   top: 0;
-  height: 12vh;
+  height: 8vh;
   width: 100%;
-  background-color: #1b47c0;
+  background-color: #5c83ee;
   color: white;
+  border: 2px solid grey;
+  -webkit-box-shadow: 5px 5px 3px grey;
+          box-shadow: 5px 5px 3px grey;
+  background: -webkit-gradient(linear, left top, right bottom, from(#fa3232), to(#3296fa));
+  background: linear-gradient(to bottom right, #fa3232, #3296fa);
+  z-index: 1;
 }
 
 header nav a {
@@ -83,16 +89,22 @@ p {
 
 main {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin: 40px auto;
+  margin: 12vh auto;
   width: 90%;
   min-width: 800px;
   max-width: 1000px;
-  background-color: white;
+  color: white;
+  opacity: 0.95;
+  background: url("../images/prairie.bmp");
   border: 1px solid grey;
   border-radius: 3px;
   -webkit-box-shadow: 10px 10px 5px grey;
           box-shadow: 10px 10px 5px grey;
   padding: 50px;
+}
+
+main a {
+  color: #ddd;
 }
 
 main .identity .candidate {
