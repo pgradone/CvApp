@@ -131,6 +131,8 @@ const euroPassDocument01 = [
           Surname: 'Gradone',
         },
         Title: 'Senior IT Consultant',
+        PhotoURL:
+          'https://s.gravatar.com/avatar/9157ab2e23bff2f326d1cca434ab4350?s=80',
         ContactInfo: {
           Address: {
             Contact: {
@@ -170,6 +172,16 @@ const euroPassDocument01 = [
               },
             },
           },
+          SocialNetworking: [
+            {
+              url: 'https://www.linkedin.com/in/potito-gradone-5b35404/',
+              Label: 'LinkedIn',
+            },
+            {
+              url: 'https://www.facebook.com/pgradone/',
+              Label: 'facebook',
+            },
+          ],
         },
         Photo: {
           MimeType: 'image/jpeg',

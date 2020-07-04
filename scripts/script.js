@@ -39,6 +39,14 @@ function fillDataFromeuroPassDocument() {
     'beforeEnd',
     `<p class="media phone number">${cvInstantMessaging.Use.Label}:${cvInstantMessaging.Contact}</p>`
   );
+  const cvSocialNetworking = cvId.ContactInfo.SocialNetworking;
+  cvSocialNetworking.forEach((socialitem) => {
+    console.log(socialitem);
+    mediaHTML.insertAdjacentHTML(
+      'beforeEnd',
+      `<p class="media social">${socialitem.Label}:${socialitem.url}</p>`
+    );
+  });
   const cvHeadline = euroPassDocument01[0].LearnerInfo.Headline;
   const objectiveHTML = document.querySelector('.objective');
   objectiveHTML.querySelector('.jobrelated').textContent =
