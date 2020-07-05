@@ -1,7 +1,7 @@
 // Changes XML to JSON
 // ref : https://davidwalsh.name/convert-xml-json#:~:text=If%20you'd%20like%20the,XML%20and%20use%20JSON%20instead.
 
-// let fs = require('fs');
+let fs = require('fs');
 const url = document.querySelector('#filelist').value;
 console.log(url);
 // let rawData = parse()
