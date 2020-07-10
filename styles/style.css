@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  background: url("../images/prairie.bmp");
+  background: url("../images/borg_pattern_wallpaper.jpg");
   font-size: 10pt;
 }
 
@@ -25,9 +25,16 @@ header nav {
           justify-content: space-between;
   position: fixed;
   top: 0;
+  height: 8vh;
   width: 100%;
-  background-color: #1b47c0;
+  background-color: #5c83ee;
   color: white;
+  border: 2px solid grey;
+  -webkit-box-shadow: 5px 5px 3px grey;
+          box-shadow: 5px 5px 3px grey;
+  background: -webkit-gradient(linear, left top, right bottom, from(#fa3232), to(#3296fa));
+  background: linear-gradient(to bottom right, #fa3232, #3296fa);
+  z-index: 1;
 }
 
 header nav a {
@@ -68,17 +75,27 @@ h2 {
   text-transform: capitalize;
 }
 
+section {
+  margin-top: 1rem;
+}
+
+article {
+  margin-top: 0.5rem;
+}
+
 p {
   margin-bottom: 0;
 }
 
 main {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin: 40px auto;
+  margin: 12vh auto;
   width: 90%;
   min-width: 800px;
   max-width: 1000px;
-  background-color: white;
+  color: white;
+  opacity: 0.95;
+  background: url("../images/prairie.bmp");
   border: 1px solid grey;
   border-radius: 3px;
   -webkit-box-shadow: 10px 10px 5px grey;
@@ -86,9 +103,17 @@ main {
   padding: 50px;
 }
 
-main .identity .candidatename {
+main a {
+  color: #ddd;
+}
+
+main .identity .candidate {
   text-align: center;
   font-weight: bold;
+}
+
+main .identity .candidate .candidatetitle {
+  font-size: 10pt;
 }
 
 main .identity .candidatecard {
@@ -99,6 +124,10 @@ main .identity .candidatecard {
       -ms-flex-pack: justify;
           justify-content: space-between;
   font-style: italic;
+}
+
+main .identity .candidatecard .contact .address {
+  margin-bottom: 0.5rem;
 }
 
 main .identity .candidatecard .contact .media {
@@ -116,10 +145,9 @@ main .identity .candidatecard .photo {
 }
 
 main .identity .candidatecard .photo img {
-  height: 100%;
+  height: 80%;
   display: block;
   margin-left: auto;
-  content: url("https://s.gravatar.com/avatar/9157ab2e23bff2f326d1cca434ab4350?s=80");
 }
 
 main .objective {
@@ -187,37 +215,35 @@ main .education .item .line {
   display: flex;
 }
 
-main .education .item .period {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+main .education .item .line .period {
+  display: inline-block;
   width: 20%;
 }
 
-main .education .item .title {
+main .education .item .line .title {
   font-weight: bold;
   text-transform: uppercase;
   text-decoration: underline;
   width: 40%;
 }
 
-main .education .item .organisation {
+main .education .item .line .organisation {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-main .education .item .organisation .contact {
+main .education .item .line .organisation .contact {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-main .education .item .organisation .contact .city {
+main .education .item .line .organisation .contact .city {
   margin-left: 1rem;
 }
 
-main .education .item .organisation .contact .country {
+main .education .item .line .organisation .contact .country {
   margin-left: 1rem;
 }
 

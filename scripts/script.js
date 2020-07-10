@@ -1,7 +1,7 @@
 // Changes XML to JSON
 // ref : https://davidwalsh.name/convert-xml-json#:~:text=If%20you'd%20like%20the,XML%20and%20use%20JSON%20instead.
 
-// let fs = require('fs');
+let fs = require('fs');
 const url = document.querySelector('#filelist').value;
 console.log(url);
 // let rawData = parse()
@@ -10,10 +10,12 @@ console.log(url);
 
 // function to fill from euroPaddDocument
 function fillDataFromeuroPassDocument() {
-  const cvId = euroPassDocument[0].LearnerInfo.Identification;
+  const cvId = euroPassDocument01[0].LearnerInfo.Identification;
   const idHTML = document.querySelector('.identity');
-  idHTML.querySelector('.candidatename h1').textContent =
+  idHTML.querySelector('.namesurname').textContent =
     cvId.PersonName.FirstName + ' ' + cvId.PersonName.Surname.toUpperCase();
+  idHTML.querySelector('.candidatecard .photo img').src = cvId.PhotoURL;
+  idHTML.querySelector('.candidatetitle').textContent = cvId.Title;
   const cvContact = cvId.ContactInfo.Address.Contact;
   const addressHTML = idHTML.querySelector('.candidatecard .contact .address');
   addressHTML.querySelector('.line').textContent = cvContact.AddressLine;
@@ -38,15 +40,23 @@ function fillDataFromeuroPassDocument() {
     'beforeEnd',
     `<p class="media phone number">${cvInstantMessaging.Use.Label}:${cvInstantMessaging.Contact}</p>`
   );
-  const cvHeadline = euroPassDocument[0].LearnerInfo.Headline;
+  const cvSocialNetworking = cvId.ContactInfo.SocialNetworking;
+  cvSocialNetworking.forEach((socialitem) => {
+    mediaHTML.insertAdjacentHTML(
+      'beforeEnd',
+      `<p class="media social"><span>${socialitem.Label}:<a href="${socialitem.url}">${socialitem.url}</a></span></p>`
+    );
+  });
+  const cvHeadline = euroPassDocument01[0].LearnerInfo.Headline;
   const objectiveHTML = document.querySelector('.objective');
-  objectiveHTML.querySelector('.mission').textContent =
-    'Apply the full efficiency of IT to your business';
   objectiveHTML.querySelector('.jobrelated').textContent =
-    cvHeadline.Type.Label + ' : ' + cvHeadline.Description.Label;
+    cvHeadline.Description.Label;
+  // cvHeadline.Type.Label + ' : ' + cvHeadline.Description.Label;
+  objectiveHTML.querySelector('.mission').textContent =
+    cvHeadline.Description.Mission;
   // Work Experience
   const cvWorkExperience =
-    euroPassDocument[0].LearnerInfo.WorkExperienceList.WorkExperience;
+    euroPassDocument01[0].LearnerInfo.WorkExperienceList.WorkExperience;
   const experienceItemHTML = document.querySelector('.experience');
   const cloneItem = experienceItemHTML.querySelector('.item');
   for (const item of cvWorkExperience) {
@@ -66,7 +76,7 @@ function fillDataFromeuroPassDocument() {
   }
   cloneItem.remove();
   // Education
-  const cvEdu = euroPassDocument[0].LearnerInfo.EducationList.Education;
+  const cvEdu = euroPassDocument01[0].LearnerInfo.EducationList.Education;
   const eduItemHTML = document.querySelector('.education');
   const eduCloneItem = eduItemHTML.querySelector('.item');
   for (const item of cvEdu) {
