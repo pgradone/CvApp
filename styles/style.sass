@@ -65,101 +65,105 @@ p
   margin-bottom: 0
 
 main
-  font-family: Verdana, Geneva, Tahoma, sans-serif
-  margin: 12vh auto
   width: 90%
   min-width: 800px
   max-width: 1000px
-  color: white
-  opacity: 0.95
-  background: url('../images/prairie.bmp')
+  margin: 12vh auto
+  padding: 50px
+  background-color: #fff
+  // z-index: 0
   border: 1px solid grey
   border-radius: 3px
   box-shadow: 10px 10px 5px grey
-  padding: 50px
-  a
-    color: #ddd
-    // text-decoration: none
-  .identity
-    .candidate
-      text-align: center
-      font-weight: bold
-      .candidatetitle
-        font-size: 10pt
-    .candidatecard
-      display: flex
-      justify-content: space-between
-      font-style: italic
-      .contact
-        .address
-          margin-bottom: 0.5rem
-        .media
-          display: flex
-          flex-direction: column
-      .photo
-        width: 200px
-        img
-          height: 80%
-          display: block
-          margin-left: auto
-  .objective
-    text-align: center
-    font-weight: bold
-    font-style: italic
-    font-size: 12pt
-  .experience
-    .item
-      margin-top: 0.5rem
-      .line
-        display: flex
-      .period
-        display: flex
-        width: 20%
-      .position
-        // margin-left: 3rem
-        font-weight: bold
-        text-transform: uppercase
-        text-decoration: underline
-        width: 40%
-      .employer
-        display: flex
-        // margin-left: 1rem
-        .contact
-          display: flex
-          // margin-left: 1rem
-          .city
-            margin-left: 1rem
-          .country
-            margin-left: 1rem
-      .activities
-        margin-top: 0.25rem
-
-  .education
-    .item
-      margin-top: 0.5rem
-      .line
-        display: flex
-        .period
-          display: inline-block
-          width: 20%
-        .title
-          // margin-left: 3rem
+  .bkgimage
+    background: url('../images/prairie.bmp')
+    opacity: 0.6
+    .content
+      color: white
+      font-family: Verdana, Geneva, Tahoma, sans-serif
+      a
+        color: #ddd
+        // text-decoration: none
+      .identity
+        .candidate
+          text-align: center
           font-weight: bold
-          text-transform: uppercase
-          text-decoration: underline
-          width: 40%
-        .organisation
+          .candidatetitle
+            font-size: 10pt
+        .candidatecard
           display: flex
-          // margin-left: 1rem
+          justify-content: space-between
+          font-style: italic
           .contact
+            .address
+              margin-bottom: 0.5rem
+            .media
+              display: flex
+              flex-direction: column
+          .photo
+            width: 200px
+            img
+              height: 80%
+              display: block
+              margin-left: auto
+      .objective
+        text-align: center
+        font-weight: bold
+        font-style: italic
+        font-size: 12pt
+      .experience
+        .item
+          margin-top: 0.5rem
+          .line
+            display: flex
+          .period
+            display: flex
+            width: 20%
+          .position
+            // margin-left: 3rem
+            font-weight: bold
+            text-transform: uppercase
+            text-decoration: underline
+            width: 40%
+          .employer
             display: flex
             // margin-left: 1rem
-            .city
-              margin-left: 1rem
-            .country
-              margin-left: 1rem
-      .activities
-        margin-top: 0.25rem
+            .contact
+              display: flex
+              // margin-left: 1rem
+              .city
+                margin-left: 1rem
+              .country
+                margin-left: 1rem
+          .activities
+            margin-top: 0.25rem
+
+      .education
+        .item
+          margin-top: 0.5rem
+          .line
+            display: flex
+            .period
+              display: inline-block
+              width: 20%
+            .title
+              // margin-left: 3rem
+              font-weight: bold
+              text-transform: uppercase
+              text-decoration: underline
+              width: 40%
+            .organisation
+              display: flex
+              // margin-left: 1rem
+              .contact
+                display: flex
+                // margin-left: 1rem
+                .city
+                  margin-left: 1rem
+                .country
+                  margin-left: 1rem
+          .activities
+            margin-top: 0.25rem
 
 // main::before 
 //   content: ""

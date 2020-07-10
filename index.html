@@ -1,180 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Curriculum Vitae</title>
-    <!--Bootstrap link-->
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" /> -->
-    <!-- fonts link -->
-    <link rel="icon" href="http://example.com/favicon.png" />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
-      integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="styles/style.css" />
-  </head>
 
-  <body>
-    <header>
-      <nav>
-        <img src="" alt="Website Logo" />
-        <div class="menu">
-          <ul>
-            <li style="display: none;">
-              <label for="filelist">Choose File to import : </label>
-              <select name="" id="filelist" class="filelist">
-                <option value="data/Europass-Gradone-20200628-EN-171320.json"
-                  >Europass-Gradone-20200628-EN-171320</option
-                >
-                <option value="data/Europass-Pinto-20190511-EN-153203.json"
-                  >Europass-Pinto-20190511-EN-153203</option
-                >
-              </select>
-            </li>
-            <li>
-              <a href="#">Apply</a>
-            </li>
-            <li>
-              <a href="#about">Help</a>
-            </li>
-            <li>
-              <a href="#services">Edit</a>
-            </li>
-            <li>
-              <select name="" id="languageslist">
-                <option value="EN"><img src="images/uk.png" /></option>
-                <option value="FR"><img src="images/france.png" /></option>
-              </select>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </header>
-    <main>
-      <section class="identity">
-        <article class="candidate">
-          <h1 class="namesurname">
-            John Doe
-          </h1>
-          <h1 class="candidatetitle">
-            professional hobo
-          </h1>
-        </article>
-        <div class="candidatecard">
-          <article class="contact">
-            <div class="address">
-              <p class="line">12 High Street</p>
-              <p class="cpcity">SDF-1234</p>
-              <p class="country">NOWHERELAND</p>
-            </div>
-            <div class="media">
-              <!-- ** Contact media to duplicate - phone, email, messaging etc.. ** -->
-              <p class="media number"></p>
-            </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Curriculum Vitae</title>
+  <!--Bootstrap link-->
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" /> -->
+  <!-- fonts link -->
+  <link rel="icon" href="http://example.com/favicon.png" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous" />
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+
+<body>
+  <header>
+    <nav>
+      <img src="" alt="Website Logo" />
+      <div class="menu">
+        <ul>
+          <li style="display: none;">
+            <label for="filelist">Choose File to import : </label>
+            <select name="" id="filelist" class="filelist">
+              <option value="data/Europass-Gradone-20200628-EN-171320.json">Europass-Gradone-20200628-EN-171320</option>
+              <option value="data/Europass-Pinto-20190511-EN-153203.json">Europass-Pinto-20190511-EN-153203</option>
+            </select>
+          </li>
+          <li>
+            <a href="#">Apply</a>
+          </li>
+          <li>
+            <a href="#about">Help</a>
+          </li>
+          <li>
+            <a href="#services">Edit</a>
+          </li>
+          <li>
+            <select name="" id="languageslist">
+              <option value="EN"><img src="images/uk.png" /></option>
+              <option value="FR"><img src="images/france.png" /></option>
+            </select>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <div class='bkgimage'>
+      <div class="content">
+        <section class="identity">
+          <article class="candidate">
+            <h1 class="namesurname">
+              John Doe
+            </h1>
+            <h1 class="candidatetitle">
+              professional hobo
+            </h1>
           </article>
-          <article class="photo">
-            <img alt="candidate picture" />
-          </article>
-        </div>
-      </section>
-      <section class="objective">
-        <article class="jobrelated">my job-related objective</article>
-        <article class="mission">my dearest mission</article>
-      </section>
-      <h2>Work Experience</h2>
-      <section class="experience">
-        <!-- ** Experience item to duplicate from WorkExperience [] ** -->
-        <article class="item">
-          <div class="line">
-            <div class="period">
-              <p class="from">'03/03/1996'</p>
-              <p>-</p>
-              <p class="to">Today</p>
-            </div>
-            <div class="position">IT Developer</div>
-            <div class="employer">
-              <div class="name">Bogus Consulting s.à r.l.</div>
-              <div class="contact">
-                <div class="city">Bertrange</div>
-                <div class="country">Luxembourg</div>
+          <div class="candidatecard">
+            <article class="contact">
+              <div class="address">
+                <p class="line">12 High Street</p>
+                <p class="cpcity">SDF-1234</p>
+                <p class="country">NOWHERELAND</p>
+              </div>
+              <div class="media">
+                <!-- ** Contact media to duplicate - phone, email, messaging etc.. ** -->
+                <p class="media number"></p>
+              </div>
+            </article>
+            <article class="photo">
+              <img alt="candidate picture" />
+            </article>
+          </div>
+        </section>
+        <section class="objective">
+          <article class="jobrelated">my job-related objective</article>
+          <article class="mission">my dearest mission</article>
+        </section>
+        <h2>Work Experience</h2>
+        <section class="experience">
+          <!-- ** Experience item to duplicate from WorkExperience [] ** -->
+          <article class="item">
+            <div class="line">
+              <div class="period">
+                <p class="from">'03/03/1996'</p>
+                <p>-</p>
+                <p class="to">Today</p>
+              </div>
+              <div class="position">IT Developer</div>
+              <div class="employer">
+                <div class="name">Bogus Consulting s.à r.l.</div>
+                <div class="contact">
+                  <div class="city">Bertrange</div>
+                  <div class="country">Luxembourg</div>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="activities"></div>
-        </article>
-      </section>
-      <h2>Training & Educational background</h2>
-      <section class="education">
-        <!-- ** Education item to duplicate from Education [] ** -->
-        <article class="item">
-          <div class="line">
-            <div class="period">
-              <p class="from"></p>
-              <p class="to"></p>
-            </div>
-            <div class="title"></div>
-            <div class="organisation">
-              <div class="name"></div>
-              <div class="contact">
-                <div class="city"></div>
-                <div class="country"></div>
+            <div class="activities"></div>
+          </article>
+        </section>
+        <h2>Training & Educational background</h2>
+        <section class="education">
+          <!-- ** Education item to duplicate from Education [] ** -->
+          <article class="item">
+            <div class="line">
+              <div class="period">
+                <p class="from"></p>
+                <p class="to"></p>
+              </div>
+              <div class="title"></div>
+              <div class="organisation">
+                <div class="name"></div>
+                <div class="contact">
+                  <div class="city"></div>
+                  <div class="country"></div>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="activities"></div>
-        </article>
-      </section>
-      <h2>Skills</h2>
-      <section class="skills">
-        <article class="linguistic">
-          <div class="language">
-            <div class="proficiencies">
-              <div class="listen"></div>
-              <div class="read"></div>
-              <div class="speak"></div>
-              <div class="write"></div>
-              <div class="certification"></div>
+            <div class="activities"></div>
+          </article>
+        </section>
+        <h2>Skills</h2>
+        <section class="skills">
+          <article class="linguistic">
+            <div class="language">
+              <div class="proficiencies">
+                <div class="listen"></div>
+                <div class="read"></div>
+                <div class="speak"></div>
+                <div class="write"></div>
+                <div class="certification"></div>
+              </div>
             </div>
-          </div>
-        </article>
-        <article class="communicational"></article>
-        <article class="organisational"></article>
-        <article class="professional"></article>
-        <article class="computational">
-          <span>
-            <p class="domain"></p>
-            <p class="expertise"></p>
-          </span>
-        </article>
-        <article class="driving">
-          <p class="licence"></p>
-        </article>
-      </section>
-      <section class="attachments">
-        <div class="docname"></div>
-        <div class="mimetype"></div>
-        <div class="uri"></div>
-      </section>
-      <h2>Various</h2>
-      <section class="personal">
-        <article class="birth">
-          <div class="birth date"></div>
-          <div class="birth place"></div>
-        </article>
-        <article class="nationality">
-          <div class="nationality initial"></div>
-          <div class="nationality additional"></div>
-        </article>
-        <article class="civilstatus"></article>
-        <article class="hobbies"></article>
-      </section>
-    </main>
-    <footer></footer>
-    <!-- <script
+          </article>
+          <article class="communicational"></article>
+          <article class="organisational"></article>
+          <article class="professional"></article>
+          <article class="computational">
+            <span>
+              <p class="domain"></p>
+              <p class="expertise"></p>
+            </span>
+          </article>
+          <article class="driving">
+            <p class="licence"></p>
+          </article>
+        </section>
+        <section class="attachments">
+          <div class="docname"></div>
+          <div class="mimetype"></div>
+          <div class="uri"></div>
+        </section>
+        <h2>Various</h2>
+        <section class="personal">
+          <article class="birth">
+            <div class="birth date"></div>
+            <div class="birth place"></div>
+          </article>
+          <article class="nationality">
+            <div class="nationality initial"></div>
+            <div class="nationality additional"></div>
+          </article>
+          <article class="civilstatus"></article>
+          <article class="hobbies"></article>
+        </section>
+      </div>
+    </div>
+  </main>
+  <footer></footer>
+  <!-- <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
       integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
       crossorigin="anonymous"
@@ -189,8 +186,9 @@
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"
     ></script> -->
-    <script src="scripts/data01.js"></script>
-    <script src="scripts/data02.js"></script>
-    <script src="scripts/script.js"></script>
-  </body>
+  <script src="scripts/data01.js"></script>
+  <script src="scripts/data02.js"></script>
+  <script src="scripts/script.js"></script>
+</body>
+
 </html>
