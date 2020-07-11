@@ -1,0 +1,743 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Candidate xsi:schemaLocation="http://www.europass.eu/1.0 Candidate.xsd" xmlns="http://www.europass.eu/1.0" xmlns:oa="http://www.openapplications.org/oagis/9" xmlns:eures="http://www.europass_eures.eu/1.0" xmlns:hr="http://www.hr-xml.org/3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <hr:DocumentID schemeID="Test-0001" schemeName="DocumentIdentifier" schemeAgencyName="EUROPASS" schemeVersionID="4.0"/>
+    <CandidateSupplier>
+        <hr:PartyID schemeID="Test-0001" schemeName="PartyID" schemeAgencyName="EUROPASS" schemeVersionID="1.0"/>
+        <hr:PartyName>Owner</hr:PartyName>
+        <PersonContact>
+            <PersonName>
+                <oa:GivenName>Potito</oa:GivenName>
+                <hr:FamilyName>Gradone</hr:FamilyName>
+            </PersonName>
+            <Communication>
+                <ChannelCode>Email</ChannelCode>
+                <oa:URI>pgradone@gmail.com</oa:URI>
+            </Communication>
+        </PersonContact>
+        <hr:PrecedenceCode>1</hr:PrecedenceCode>
+    </CandidateSupplier>
+    <CandidatePerson>
+        <PersonName>
+            <oa:GivenName>Potito</oa:GivenName>
+            <hr:FamilyName>Gradone</hr:FamilyName>
+        </PersonName>
+        <Communication>
+            <ChannelCode>Email</ChannelCode>
+            <oa:URI>pgradone@gmail.com</oa:URI>
+        </Communication>
+        <Communication>
+            <ChannelCode>Web</ChannelCode>
+            <oa:URI>https://pgradone-cvapp.netlify.app/</oa:URI>
+        </Communication>
+        <Communication>
+            <ChannelCode>Social Media</ChannelCode>
+            <UseCode>linkedin</UseCode>
+            <oa:URI>https://www.linkedin.com/in/potito-gradone-5b35404/</oa:URI>
+        </Communication>
+        <Communication>
+            <ChannelCode>InstantMessage</ChannelCode>
+            <UseCode>skype</UseCode>
+            <oa:URI>pgradone</oa:URI>
+        </Communication>
+        <Communication>
+            <ChannelCode>Telephone</ChannelCode>
+            <UseCode>mobile</UseCode>
+            <CountryDialing>352</CountryDialing>
+            <oa:DialNumber>691266208</oa:DialNumber>
+            <CountryCode>lu</CountryCode>
+        </Communication>
+        <Communication>
+            <ChannelCode>Telephone</ChannelCode>
+            <UseCode>home</UseCode>
+            <CountryDialing>352</CountryDialing>
+            <oa:DialNumber>26620862</oa:DialNumber>
+            <CountryCode>lu</CountryCode>
+        </Communication>
+        <Communication>
+            <UseCode>home</UseCode>
+            <Address type="home">
+                <oa:AddressLine>Am Hoirbock, 12</oa:AddressLine>
+                <oa:CityName>Oberpallen</oa:CityName>
+                <CountryCode>lu</CountryCode>
+                <oa:PostalCode>L-8552</oa:PostalCode>
+            </Address>
+        </Communication>
+        <NationalityCode>it</NationalityCode>
+        <NationalityCode>lu</NationalityCode>
+        <hr:BirthDate>1964-05-31</hr:BirthDate>
+        <GenderCode>male</GenderCode>
+        <PrimaryLanguageCode name="NORMAL">ita</PrimaryLanguageCode>
+    </CandidatePerson>
+    <CandidateProfile languageCode="en">
+        <hr:ID schemeID="Test-0001" schemeName="CandidateProfileID" schemeAgencyName="EUROPASS" schemeVersionID="1.0"/>
+        <hr:ExecutiveSummary>Experienced Information Technology Consultant with a demonstrated history of working in the management consulting industry. Skilled in Reporting, Databases, Data Warehousing, Software Documentation, and Visual Basic for Applications (VBA). Strong information technology professional with a Master of Business Administration (MBA) focused in DSC from Miami University.
+In this new decade, I am looking forward to apply my newly acquired knowledge of JavaScript to embrace new challenges in web developments. </hr:ExecutiveSummary>
+        <EmploymentHistory>
+            <EmployerHistory>
+                <hr:OrganizationName>Infodata</hr:OrganizationName>
+                <OrganizationContact>
+                    <Communication>
+                        <Address>
+                            <oa:CityName>Luxembourg</oa:CityName>
+                            <CountryCode>lu</CountryCode>
+                        </Address>
+                    </Communication>
+                </OrganizationContact>
+                <PositionHistory>
+                    <PositionTitle typeCode="FREETEXT">Analyst Programmer</PositionTitle>
+                    <eures:EmploymentPeriod>
+                        <eures:StartDate>
+                            <hr:FormattedDateTime>1996-02-01</hr:FormattedDateTime>
+                        </eures:StartDate>
+                        <eures:EndDate>
+                            <hr:FormattedDateTime>1996-08-31</hr:FormattedDateTime>
+                        </eures:EndDate>
+                        <hr:CurrentIndicator>false</hr:CurrentIndicator>
+                    </eures:EmploymentPeriod>
+                    <oa:Description>&lt;p&gt;Projects:&lt;/p&gt;
+&lt;p&gt;- SCIERIX, TDK, Ticketing, Consulting, Migrations&lt;/p&gt;
+&lt;p&gt;- PC configuration, User Training&lt;/p&gt;
+&lt;p&gt;Technologies:&lt;/p&gt;
+&lt;p&gt;MSDos, SB+ under Pick OS,&amp;nbsp;Omnidirectional DBMS&lt;/p&gt;</oa:Description>
+                </PositionHistory>
+            </EmployerHistory>
+            <EmployerHistory>
+                <hr:OrganizationName>Transcom (Transac)</hr:OrganizationName>
+                <OrganizationContact>
+                    <Communication>
+                        <Address>
+                            <oa:CityName>Dudelange</oa:CityName>
+                            <CountryCode>lu</CountryCode>
+                        </Address>
+                    </Communication>
+                </OrganizationContact>
+                <PositionHistory>
+                    <PositionTitle typeCode="FREETEXT">IT Developer</PositionTitle>
+                    <eures:EmploymentPeriod>
+                        <eures:StartDate>
+                            <hr:FormattedDateTime>1996-09-30</hr:FormattedDateTime>
+                        </eures:StartDate>
+                        <eures:EndDate>
+                            <hr:FormattedDateTime>1998-02-28</hr:FormattedDateTime>
+                        </eures:EndDate>
+                        <hr:CurrentIndicator>false</hr:CurrentIndicator>
+                    </eures:EmploymentPeriod>
+                    <oa:Description>&lt;p&gt;MACH project&lt;/p&gt;
+&lt;p&gt;- Multinational Automated Clearing House, reporting&lt;/p&gt;
+&lt;p&gt;- maintenance, interfacing&amp;nbsp;&amp;amp; developments in GSM SMS call data mining&lt;/p&gt;
+&lt;p&gt;- Digital VAX/VMS scripting,&lt;/p&gt;
+&lt;p&gt;- PL/SQL, SQLPlus reporting, Oracle Developer 2000, Access&lt;/p&gt;</oa:Description>
+                </PositionHistory>
+            </EmployerHistory>
+            <EmployerHistory>
+                <hr:OrganizationName>P&amp;T Consulting</hr:OrganizationName>
+                <OrganizationContact>
+                    <Communication>
+                        <Address>
+                            <oa:CityName>Luxembourg</oa:CityName>
+                            <CountryCode>lu</CountryCode>
+                        </Address>
+                    </Communication>
+                </OrganizationContact>
+                <PositionHistory>
+                    <PositionTitle typeCode="FREETEXT">IT Engineer</PositionTitle>
+                    <eures:EmploymentPeriod>
+                        <eures:StartDate>
+                            <hr:FormattedDateTime>1998-11-23</hr:FormattedDateTime>
+                        </eures:StartDate>
+                        <eures:EndDate>
+                            <hr:FormattedDateTime>2000-10-20</hr:FormattedDateTime>
+                        </eures:EndDate>
+                        <hr:CurrentIndicator>false</hr:CurrentIndicator>
+                    </eures:EmploymentPeriod>
+                    <oa:Description>&lt;p&gt;Projects:&lt;/p&gt;
+&lt;p&gt;- LUXGSM Base Station Subsystems, Applications Re Engineering &amp;amp; Development&lt;/p&gt;
+&lt;p&gt;- MAGUI – Machine de Guichet, Upgrading Y2K &amp;amp; Euro, Client Machines Install &amp;amp; Configure&lt;/p&gt;
+&lt;p&gt;Technologies:&lt;/p&gt;
+&lt;p&gt;AMC Designor, Access VBA Client/Server, Corporate Data Control &amp;amp; Validation- Unix, MSDOS, Datafit DP4, Excel&lt;/p&gt;</oa:Description>
+                </PositionHistory>
+            </EmployerHistory>
+            <EmployerHistory>
+                <hr:OrganizationName>ING Bank</hr:OrganizationName>
+                <OrganizationContact>
+                    <Communication>
+                        <Address>
+                            <oa:CityName>Luxembourg</oa:CityName>
+                            <CountryCode>lu</CountryCode>
+                        </Address>
+                    </Communication>
+                </OrganizationContact>
+                <PositionHistory>
+                    <PositionTitle typeCode="FREETEXT">Operations Analyst</PositionTitle>
+                    <eures:EmploymentPeriod>
+                        <eures:StartDate>
+                            <hr:FormattedDateTime>2000-10-13</hr:FormattedDateTime>
+                        </eures:StartDate>
+                        <eures:EndDate>
+                            <hr:FormattedDateTime>2005-03-31</hr:FormattedDateTime>
+                        </eures:EndDate>
+                        <hr:CurrentIndicator>false</hr:CurrentIndicator>
+                    </eures:EmploymentPeriod>
+                    <oa:Description>&lt;p&gt;-&amp;nbsp;Operations, Data warehousing, CRM, Development &amp;amp; Maintenance, Reporting&lt;/p&gt;
+&lt;p&gt;-&amp;nbsp;MS-Access, VBA, MS-SQL Server, ORACLE, Word, Excel, Outlook, Lotus Notes&lt;/p&gt;
+&lt;p&gt;-&amp;nbsp;Migration, reengineering and consolidation of obsolete databases&lt;/p&gt;
+&lt;p&gt;-&amp;nbsp;Maintenance, security and application deployment for ING Milan, Prague and Curaçao&lt;/p&gt;
+&lt;p&gt;-&amp;nbsp;Helpdesk technical and user documentation for all client administration IT needs&lt;/p&gt;
+&lt;p&gt;-&amp;nbsp;Reengineering and consolidation of financial composites database&lt;/p&gt;
+&lt;p&gt;-&amp;nbsp;Restructuring and normalization of reports' layouts and historical contents&lt;/p&gt;
+&lt;p&gt;-&amp;nbsp;Statistics and graphics setup from financial data and reporting tool for Executive Management&lt;/p&gt;
+&lt;p&gt;-&amp;nbsp;Performance assessment and budgeting of evacuation and backup procedures&lt;/p&gt;</oa:Description>
+                </PositionHistory>
+            </EmployerHistory>
+            <EmployerHistory>
+                <hr:OrganizationName>BGL-Fortis</hr:OrganizationName>
+                <OrganizationContact>
+                    <Communication>
+                        <Address>
+                            <oa:CityName>Luxembourg</oa:CityName>
+                            <CountryCode>lu</CountryCode>
+                        </Address>
+                    </Communication>
+                </OrganizationContact>
+                <PositionHistory>
+                    <PositionTitle typeCode="FREETEXT">Applications Analyst</PositionTitle>
+                    <eures:EmploymentPeriod>
+                        <eures:StartDate>
+                            <hr:FormattedDateTime>2005-09-15</hr:FormattedDateTime>
+                        </eures:StartDate>
+                        <eures:EndDate>
+                            <hr:FormattedDateTime>2006-03-15</hr:FormattedDateTime>
+                        </eures:EndDate>
+                        <hr:CurrentIndicator>false</hr:CurrentIndicator>
+                    </eures:EmploymentPeriod>
+                    <oa:Description>&lt;p&gt;-&amp;nbsp;MS-Access, VB, ORACLE, Unix, Sybase, Excel, TOAD, RBAC modelling for migrations&lt;/p&gt;
+&lt;p&gt;-&amp;nbsp;Financial Reporting, Re-branding, Office97-XP migrations, Helpdesk, Project management&lt;/p&gt;
+&lt;p&gt;-&amp;nbsp;RBAC (Role-Based Access Control) modelling,migrations of MS Access Databases&lt;/p&gt;
+&lt;p&gt;-&amp;nbsp;IT Security Management, data protection &amp;amp; Applications Security Assessments&lt;/p&gt;
+&lt;p&gt;-&amp;nbsp;Rebranding financial accounting reports from IAS to IFRS for CSSF and internal needs&lt;/p&gt;
+&lt;p&gt;-&amp;nbsp;Normalization consolidation and interfacing of operational applications for internal accounts&lt;/p&gt;</oa:Description>
+                </PositionHistory>
+            </EmployerHistory>
+            <EmployerHistory>
+                <hr:OrganizationName>Vision IT</hr:OrganizationName>
+                <OrganizationContact>
+                    <Communication>
+                        <Address>
+                            <oa:CityName>Bertrange</oa:CityName>
+                            <CountryCode>lu</CountryCode>
+                        </Address>
+                    </Communication>
+                </OrganizationContact>
+                <PositionHistory>
+                    <PositionTitle typeCode="FREETEXT">Software Engineer</PositionTitle>
+                    <eures:EmploymentPeriod>
+                        <eures:StartDate>
+                            <hr:FormattedDateTime>2006-03-01</hr:FormattedDateTime>
+                        </eures:StartDate>
+                        <eures:EndDate>
+                            <hr:FormattedDateTime>2006-09-14</hr:FormattedDateTime>
+                        </eures:EndDate>
+                        <hr:CurrentIndicator>false</hr:CurrentIndicator>
+                    </eures:EmploymentPeriod>
+                    <oa:Description>&lt;p&gt;Project MPG/Ferrero Schoppach:&lt;/p&gt;
+&lt;p&gt;Migration from Oracle Applications to SAP,&amp;nbsp;Maintenance for Purchasing, Helpdesk, Support,&amp;nbsp;Development, DBA&lt;/p&gt;
+&lt;p&gt;Technologies:&lt;/p&gt;
+&lt;p&gt;Oracle Applications, PL/SQL, Unix, TOAD, Oracle Developer Suite, Business Objects&lt;/p&gt;</oa:Description>
+                </PositionHistory>
+            </EmployerHistory>
+            <EmployerHistory>
+                <hr:OrganizationName>John Deere</hr:OrganizationName>
+                <OrganizationContact>
+                    <Communication>
+                        <Address>
+                            <oa:CityName>Luxembourg</oa:CityName>
+                            <CountryCode>lu</CountryCode>
+                        </Address>
+                    </Communication>
+                </OrganizationContact>
+                <PositionHistory>
+                    <PositionTitle typeCode="FREETEXT">IT Developer</PositionTitle>
+                    <eures:EmploymentPeriod>
+                        <eures:StartDate>
+                            <hr:FormattedDateTime>2007-03-12</hr:FormattedDateTime>
+                        </eures:StartDate>
+                        <eures:EndDate>
+                            <hr:FormattedDateTime>2010-12-31</hr:FormattedDateTime>
+                        </eures:EndDate>
+                        <hr:CurrentIndicator>false</hr:CurrentIndicator>
+                    </eures:EmploymentPeriod>
+                    <oa:Description>&lt;p&gt;Oracle, PL/SQL, TOAD, MS-Access VBA, MSOffice Applications Design &amp;amp; Re Engineering&lt;/p&gt;
+&lt;p&gt;FRS/FRG (WKFS) data foundation Interfacing with Lynx/TE and Oracle Financials Trial Balance&lt;/p&gt;
+&lt;p&gt;Financial, Operations Marketing &amp;amp; Legal Reporting, Helpdesk, MIS data mapping&lt;/p&gt;</oa:Description>
+                </PositionHistory>
+            </EmployerHistory>
+            <EmployerHistory>
+                <hr:OrganizationName>Fidelity</hr:OrganizationName>
+                <OrganizationContact>
+                    <Communication>
+                        <Address>
+                            <oa:CityName>Luxembourg</oa:CityName>
+                            <CountryCode>lu</CountryCode>
+                        </Address>
+                    </Communication>
+                </OrganizationContact>
+                <PositionHistory>
+                    <PositionTitle typeCode="FREETEXT">Assistant Manager, Automation</PositionTitle>
+                    <eures:EmploymentPeriod>
+                        <eures:StartDate>
+                            <hr:FormattedDateTime>2011-05-01</hr:FormattedDateTime>
+                        </eures:StartDate>
+                        <eures:EndDate>
+                            <hr:FormattedDateTime>2011-08-08</hr:FormattedDateTime>
+                        </eures:EndDate>
+                        <hr:CurrentIndicator>false</hr:CurrentIndicator>
+                    </eures:EmploymentPeriod>
+                    <oa:Description>&lt;p&gt;Funds Administration, Finance, Accounting, Helpdesk &amp;amp; NAV signup&lt;/p&gt;
+&lt;p&gt;Microsoft SQL Server 2008, Excel-Access VBA, .NET&lt;/p&gt;</oa:Description>
+                </PositionHistory>
+            </EmployerHistory>
+            <EmployerHistory>
+                <hr:OrganizationName>Lycée Technique Mathias Adam</hr:OrganizationName>
+                <OrganizationContact>
+                    <Communication>
+                        <Address>
+                            <oa:CityName>Pétange</oa:CityName>
+                            <CountryCode>lu</CountryCode>
+                        </Address>
+                    </Communication>
+                </OrganizationContact>
+                <PositionHistory>
+                    <PositionTitle typeCode="FREETEXT">Chargé d'Éducation, Sciences Naturelles</PositionTitle>
+                    <eures:EmploymentPeriod>
+                        <eures:StartDate>
+                            <hr:FormattedDateTime>2011-09-15</hr:FormattedDateTime>
+                        </eures:StartDate>
+                        <eures:EndDate>
+                            <hr:FormattedDateTime>2012-09-14</hr:FormattedDateTime>
+                        </eures:EndDate>
+                        <hr:CurrentIndicator>false</hr:CurrentIndicator>
+                    </eures:EmploymentPeriod>
+                    <oa:Description>&lt;p&gt;Courses in Natural Sciences for high-school students, classes 8 to 10, MSOffice Suite, Tools for school management&lt;/p&gt;</oa:Description>
+                </PositionHistory>
+            </EmployerHistory>
+            <EmployerHistory>
+                <hr:OrganizationName>Fonds National de Solidarité</hr:OrganizationName>
+                <OrganizationContact>
+                    <Communication>
+                        <Address>
+                            <oa:CityName>Luxembourg</oa:CityName>
+                            <CountryCode>lu</CountryCode>
+                        </Address>
+                    </Communication>
+                </OrganizationContact>
+                <PositionHistory>
+                    <PositionTitle typeCode="FREETEXT">IT Officer</PositionTitle>
+                    <eures:EmploymentPeriod>
+                        <eures:StartDate>
+                            <hr:FormattedDateTime>2012-10-01</hr:FormattedDateTime>
+                        </eures:StartDate>
+                        <eures:EndDate>
+                            <hr:FormattedDateTime>2017-12-31</hr:FormattedDateTime>
+                        </eures:EndDate>
+                        <hr:CurrentIndicator>false</hr:CurrentIndicator>
+                    </eures:EmploymentPeriod>
+                    <oa:Description>&lt;p&gt;Helpdesk, VBA Macros &amp;amp; Maintenance, Hardware &amp;amp; Software management, IT procedures&lt;/p&gt;
+&lt;p&gt;MySQL, Linux server, VBA &amp;amp; Macros dev, VB.NET, Data protection, Typo3, documentation&lt;/p&gt;</oa:Description>
+                </PositionHistory>
+            </EmployerHistory>
+            <EmployerHistory>
+                <hr:OrganizationName>Taleo Consulting</hr:OrganizationName>
+                <OrganizationContact>
+                    <Communication>
+                        <Address>
+                            <oa:CityName>Luxembourg</oa:CityName>
+                            <CountryCode>lu</CountryCode>
+                        </Address>
+                    </Communication>
+                </OrganizationContact>
+                <PositionHistory>
+                    <PositionTitle typeCode="FREETEXT">Senior IT Consultant</PositionTitle>
+                    <eures:EmploymentPeriod>
+                        <eures:StartDate>
+                            <hr:FormattedDateTime>2018-03-22</hr:FormattedDateTime>
+                        </eures:StartDate>
+                        <eures:EndDate>
+                            <hr:FormattedDateTime>2019-10-31</hr:FormattedDateTime>
+                        </eures:EndDate>
+                        <hr:CurrentIndicator>false</hr:CurrentIndicator>
+                    </eures:EmploymentPeriod>
+                    <oa:Description>&lt;p&gt;Projects:&lt;/p&gt;
+&lt;p&gt;- CNMV Legal reporting for Spain, Edmond de Rothchild&lt;/p&gt;
+&lt;p&gt;- WKFS Support, Eurobank&lt;/p&gt;
+&lt;p&gt;- RaRoc Risk Adjusted Return on Capital&amp;nbsp;Legal reporting, BIL&lt;/p&gt;
+&lt;p&gt;- IDD Risk calculator GLFI, SocGen Life Insurance Brokers&lt;/p&gt;
+&lt;p&gt;Technologies:&lt;/p&gt;
+&lt;p&gt;Streamlining, Agile, Jira, interfacing, documentations, VBA, SQL, Microsoft Access, Excel,&amp;nbsp;WKFS, Olympic–Avaloq, XML, migration, consolidations, JavaScript&lt;/p&gt;</oa:Description>
+                </PositionHistory>
+            </EmployerHistory>
+        </EmploymentHistory>
+        <EducationHistory>
+            <EducationOrganizationAttendance>
+                <hr:OrganizationName>Ecole Européenne Luxembourg</hr:OrganizationName>
+                <OrganizationContact>
+                    <Communication>
+                        <Address>
+                            <oa:CityName>Luxembourg</oa:CityName>
+                            <CountryCode>lu</CountryCode>
+                        </Address>
+                    </Communication>
+                </OrganizationContact>
+                <EducationLevelCode>4</EducationLevelCode>
+                <AttendancePeriod>
+                    <StartDate>
+                        <hr:FormattedDateTime>1980-09-15</hr:FormattedDateTime>
+                    </StartDate>
+                    <EndDate>
+                        <hr:FormattedDateTime>1982-07-31</hr:FormattedDateTime>
+                    </EndDate>
+                    <Ongoing>false</Ongoing>
+                </AttendancePeriod>
+                <EducationDegree>
+                    <hr:DegreeName>European School Bac Math, Sciences, Languages</hr:DegreeName>
+                    <OccupationalSkillsCovered>&lt;p&gt;Mathematics, Sciences, Languages&lt;/p&gt;</OccupationalSkillsCovered>
+                </EducationDegree>
+            </EducationOrganizationAttendance>
+            <EducationOrganizationAttendance>
+                <hr:OrganizationName>Università degli Studi di URBINO</hr:OrganizationName>
+                <OrganizationContact>
+                    <Communication>
+                        <Address>
+                            <oa:CityName>Urbino</oa:CityName>
+                            <CountryCode>it</CountryCode>
+                        </Address>
+                    </Communication>
+                </OrganizationContact>
+                <EducationLevelCode>6</EducationLevelCode>
+                <AttendancePeriod>
+                    <StartDate>
+                        <hr:FormattedDateTime>1982-09-15</hr:FormattedDateTime>
+                    </StartDate>
+                    <EndDate>
+                        <hr:FormattedDateTime>1988-03-03</hr:FormattedDateTime>
+                    </EndDate>
+                    <Ongoing>false</Ongoing>
+                </AttendancePeriod>
+                <EducationDegree>
+                    <hr:DegreeName>Laurea IN BIOLOGY</hr:DegreeName>
+                    <OccupationalSkillsCovered>&lt;p&gt;Biological Sciences,&lt;/p&gt;
+&lt;p&gt;Focus paper in Organic Chemistry, on Pyrrhole Synthesis&lt;/p&gt;
+&lt;p&gt;Urinary analyses of immunity-suppressed patients undergoing bone marrow transplants&lt;/p&gt;
+&lt;p&gt;Electrophoresis, cell-staining, microscopic analyses, various clinical techniques&lt;/p&gt;
+&lt;p&gt;Effects of vitamin E on rats’ sciatic nerve regeneration.&lt;/p&gt;</OccupationalSkillsCovered>
+                </EducationDegree>
+            </EducationOrganizationAttendance>
+            <EducationOrganizationAttendance>
+                <hr:OrganizationName>ULB</hr:OrganizationName>
+                <OrganizationContact>
+                    <Communication>
+                        <Address>
+                            <oa:CityName>Bruxelles</oa:CityName>
+                            <CountryCode>be</CountryCode>
+                        </Address>
+                    </Communication>
+                </OrganizationContact>
+                <EducationLevelCode>7</EducationLevelCode>
+                <AttendancePeriod>
+                    <StartDate>
+                        <hr:FormattedDateTime>1989-09-15</hr:FormattedDateTime>
+                    </StartDate>
+                    <EndDate>
+                        <hr:FormattedDateTime>1991-09-13</hr:FormattedDateTime>
+                    </EndDate>
+                    <Ongoing>false</Ongoing>
+                </AttendancePeriod>
+                <EducationDegree>
+                    <hr:DegreeName>Licence spéciale en Biologie Moléculaire et Biotechnologie</hr:DegreeName>
+                    <OccupationalSkillsCovered>&lt;p&gt;Chemical synthesis and non radioactive labelling of deoxy-oligonucleotides.&lt;/p&gt;
+&lt;p&gt;Phosphoramidite synthesis chemistry, DNA purification &amp;amp; analytical techniques (blots…)&lt;/p&gt;</OccupationalSkillsCovered>
+                </EducationDegree>
+            </EducationOrganizationAttendance>
+            <EducationOrganizationAttendance>
+                <hr:OrganizationName>Uni Lu</hr:OrganizationName>
+                <OrganizationContact>
+                    <Communication>
+                        <Address>
+                            <oa:CityName>Luxembourg</oa:CityName>
+                            <CountryCode>lu</CountryCode>
+                        </Address>
+                    </Communication>
+                </OrganizationContact>
+                <AttendancePeriod>
+                    <StartDate>
+                        <hr:FormattedDateTime>1992-09-15</hr:FormattedDateTime>
+                    </StartDate>
+                    <EndDate>
+                        <hr:FormattedDateTime>1993-07-15</hr:FormattedDateTime>
+                    </EndDate>
+                    <Ongoing>false</Ongoing>
+                </AttendancePeriod>
+                <EducationDegree>
+                    <hr:DegreeName>Micro- &amp; Macro-economics courses</hr:DegreeName>
+                    <OccupationalSkillsCovered>&lt;p&gt;Micro-economics, macro-economics. American economy, Information Technology&lt;/p&gt;
+&lt;p&gt;Economics engineering&amp;nbsp;textbooks, Desktop Publishing, Graphics on spreadsheets, Statistics&lt;/p&gt;</OccupationalSkillsCovered>
+                </EducationDegree>
+            </EducationOrganizationAttendance>
+            <EducationOrganizationAttendance>
+                <hr:OrganizationName>Miami University</hr:OrganizationName>
+                <OrganizationContact>
+                    <Communication>
+                        <Address>
+                            <oa:CityName>Oxford, OH</oa:CityName>
+                            <CountryCode>us</CountryCode>
+                        </Address>
+                    </Communication>
+                </OrganizationContact>
+                <EducationLevelCode>7</EducationLevelCode>
+                <AttendancePeriod>
+                    <StartDate>
+                        <hr:FormattedDateTime>1993-09-01</hr:FormattedDateTime>
+                    </StartDate>
+                    <EndDate>
+                        <hr:FormattedDateTime>1995-07-15</hr:FormattedDateTime>
+                    </EndDate>
+                    <Ongoing>false</Ongoing>
+                </AttendancePeriod>
+                <EducationDegree>
+                    <hr:DegreeName>Master of Business Administration, Decision Sciences</hr:DegreeName>
+                    <OccupationalSkillsCovered>&lt;p&gt;MBA Focus Paper, Organisational Behaviour, HR recommendations&lt;/p&gt;
+&lt;p&gt;IT, SQL, Database Management&lt;/p&gt;
+&lt;p&gt;Focus paper on SQA - Suppliers Quality Assurance&lt;/p&gt;</OccupationalSkillsCovered>
+                </EducationDegree>
+            </EducationOrganizationAttendance>
+            <EducationOrganizationAttendance>
+                <hr:OrganizationName>Centre de Recherche public Henry Tudor</hr:OrganizationName>
+                <OrganizationContact>
+                    <Communication>
+                        <Address>
+                            <oa:CityName>Luxembourg</oa:CityName>
+                            <CountryCode>lu</CountryCode>
+                        </Address>
+                    </Communication>
+                </OrganizationContact>
+                <AttendancePeriod>
+                    <StartDate>
+                        <hr:FormattedDateTime>1995-09-18</hr:FormattedDateTime>
+                    </StartDate>
+                    <EndDate>
+                        <hr:FormattedDateTime>1996-01-31</hr:FormattedDateTime>
+                    </EndDate>
+                    <Ongoing>false</Ongoing>
+                </AttendancePeriod>
+                <EducationDegree>
+                    <hr:DegreeName>Qualif II IT</hr:DegreeName>
+                    <OccupationalSkillsCovered>&lt;p&gt;IT Systems Analysis practical training and qualification for Luxembourg Jobsearch&lt;/p&gt;
+&lt;p&gt;Merise methodology, Networking, DBMS, SQL, 4GLs, object and service oriented techniques&lt;/p&gt;</OccupationalSkillsCovered>
+                </EducationDegree>
+            </EducationOrganizationAttendance>
+            <EducationOrganizationAttendance>
+                <hr:OrganizationName>NumericALL</hr:OrganizationName>
+                <OrganizationContact>
+                    <Communication>
+                        <Address>
+                            <oa:AddressLine>9 Avenue des Hauts-Fourneaux</oa:AddressLine>
+                            <oa:CityName>Esch-sur-Alzette</oa:CityName>
+                            <CountryCode>lu</CountryCode>
+                            <oa:PostalCode>L4362</oa:PostalCode>
+                        </Address>
+                    </Communication>
+                    <Communication>
+                        <ChannelCode>Web</ChannelCode>
+                        <oa:URI>https://www.wf3.fr/centre/luxembourg-numericall/</oa:URI>
+                    </Communication>
+                </OrganizationContact>
+                <AttendancePeriod>
+                    <StartDate>
+                        <hr:FormattedDateTime>2020-05-11</hr:FormattedDateTime>
+                    </StartDate>
+                    <EndDate>
+                        <hr:FormattedDateTime>2020-09-11</hr:FormattedDateTime>
+                    </EndDate>
+                    <Ongoing>false</Ongoing>
+                </AttendancePeriod>
+                <EducationDegree>
+                    <hr:DegreeName>CodingJobs - Full Stack WebDev bootcamp</hr:DegreeName>
+                </EducationDegree>
+            </EducationOrganizationAttendance>
+        </EducationHistory>
+        <Certifications/>
+        <PublicationHistory/>
+        <PersonQualifications>
+            <PersonCompetency>
+                <CompetencyID schemeName="NORMAL">fre</CompetencyID>
+                <hr:TaxonomyID>language</hr:TaxonomyID>
+                <eures:CompetencyDimension>
+                    <hr:CompetencyDimensionTypeCode>CEF-Understanding-Listening</hr:CompetencyDimensionTypeCode>
+                    <eures:Score>
+                        <hr:ScoreText>C2</hr:ScoreText>
+                    </eures:Score>
+                </eures:CompetencyDimension>
+                <eures:CompetencyDimension>
+                    <hr:CompetencyDimensionTypeCode>CEF-Understanding-Reading</hr:CompetencyDimensionTypeCode>
+                    <eures:Score>
+                        <hr:ScoreText>C2</hr:ScoreText>
+                    </eures:Score>
+                </eures:CompetencyDimension>
+                <eures:CompetencyDimension>
+                    <hr:CompetencyDimensionTypeCode>CEF-Speaking-Interaction</hr:CompetencyDimensionTypeCode>
+                    <eures:Score>
+                        <hr:ScoreText>C2</hr:ScoreText>
+                    </eures:Score>
+                </eures:CompetencyDimension>
+                <eures:CompetencyDimension>
+                    <hr:CompetencyDimensionTypeCode>CEF-Speaking-Production</hr:CompetencyDimensionTypeCode>
+                    <eures:Score>
+                        <hr:ScoreText>C2</hr:ScoreText>
+                    </eures:Score>
+                </eures:CompetencyDimension>
+                <eures:CompetencyDimension>
+                    <hr:CompetencyDimensionTypeCode>CEF-Writing-Production</hr:CompetencyDimensionTypeCode>
+                    <eures:Score>
+                        <hr:ScoreText>C2</hr:ScoreText>
+                    </eures:Score>
+                </eures:CompetencyDimension>
+            </PersonCompetency>
+            <PersonCompetency>
+                <CompetencyID schemeName="NORMAL">eng</CompetencyID>
+                <hr:TaxonomyID>language</hr:TaxonomyID>
+                <eures:CompetencyDimension>
+                    <hr:CompetencyDimensionTypeCode>CEF-Understanding-Listening</hr:CompetencyDimensionTypeCode>
+                    <eures:Score>
+                        <hr:ScoreText>C2</hr:ScoreText>
+                    </eures:Score>
+                </eures:CompetencyDimension>
+                <eures:CompetencyDimension>
+                    <hr:CompetencyDimensionTypeCode>CEF-Understanding-Reading</hr:CompetencyDimensionTypeCode>
+                    <eures:Score>
+                        <hr:ScoreText>C2</hr:ScoreText>
+                    </eures:Score>
+                </eures:CompetencyDimension>
+                <eures:CompetencyDimension>
+                    <hr:CompetencyDimensionTypeCode>CEF-Speaking-Interaction</hr:CompetencyDimensionTypeCode>
+                    <eures:Score>
+                        <hr:ScoreText>C1</hr:ScoreText>
+                    </eures:Score>
+                </eures:CompetencyDimension>
+                <eures:CompetencyDimension>
+                    <hr:CompetencyDimensionTypeCode>CEF-Speaking-Production</hr:CompetencyDimensionTypeCode>
+                    <eures:Score>
+                        <hr:ScoreText>C1</hr:ScoreText>
+                    </eures:Score>
+                </eures:CompetencyDimension>
+                <eures:CompetencyDimension>
+                    <hr:CompetencyDimensionTypeCode>CEF-Writing-Production</hr:CompetencyDimensionTypeCode>
+                    <eures:Score>
+                        <hr:ScoreText>C1</hr:ScoreText>
+                    </eures:Score>
+                </eures:CompetencyDimension>
+            </PersonCompetency>
+            <PersonCompetency>
+                <CompetencyID schemeName="NORMAL">ger</CompetencyID>
+                <hr:TaxonomyID>language</hr:TaxonomyID>
+                <eures:CompetencyDimension>
+                    <hr:CompetencyDimensionTypeCode>CEF-Understanding-Listening</hr:CompetencyDimensionTypeCode>
+                    <eures:Score>
+                        <hr:ScoreText>B2</hr:ScoreText>
+                    </eures:Score>
+                </eures:CompetencyDimension>
+                <eures:CompetencyDimension>
+                    <hr:CompetencyDimensionTypeCode>CEF-Understanding-Reading</hr:CompetencyDimensionTypeCode>
+                    <eures:Score>
+                        <hr:ScoreText>B2</hr:ScoreText>
+                    </eures:Score>
+                </eures:CompetencyDimension>
+                <eures:CompetencyDimension>
+                    <hr:CompetencyDimensionTypeCode>CEF-Speaking-Interaction</hr:CompetencyDimensionTypeCode>
+                    <eures:Score>
+                        <hr:ScoreText>B1</hr:ScoreText>
+                    </eures:Score>
+                </eures:CompetencyDimension>
+                <eures:CompetencyDimension>
+                    <hr:CompetencyDimensionTypeCode>CEF-Speaking-Production</hr:CompetencyDimensionTypeCode>
+                    <eures:Score>
+                        <hr:ScoreText>B1</hr:ScoreText>
+                    </eures:Score>
+                </eures:CompetencyDimension>
+                <eures:CompetencyDimension>
+                    <hr:CompetencyDimensionTypeCode>CEF-Writing-Production</hr:CompetencyDimensionTypeCode>
+                    <eures:Score>
+                        <hr:ScoreText>B1</hr:ScoreText>
+                    </eures:Score>
+                </eures:CompetencyDimension>
+            </PersonCompetency>
+            <PersonCompetency>
+                <CompetencyID schemeName="FREE_TEXT">Luxembourgish</CompetencyID>
+                <hr:TaxonomyID>language</hr:TaxonomyID>
+                <eures:CompetencyDimension>
+                    <hr:CompetencyDimensionTypeCode>CEF-Understanding-Listening</hr:CompetencyDimensionTypeCode>
+                    <eures:Score>
+                        <hr:ScoreText>B2</hr:ScoreText>
+                    </eures:Score>
+                </eures:CompetencyDimension>
+                <eures:CompetencyDimension>
+                    <hr:CompetencyDimensionTypeCode>CEF-Understanding-Reading</hr:CompetencyDimensionTypeCode>
+                    <eures:Score>
+                        <hr:ScoreText>B2</hr:ScoreText>
+                    </eures:Score>
+                </eures:CompetencyDimension>
+                <eures:CompetencyDimension>
+                    <hr:CompetencyDimensionTypeCode>CEF-Speaking-Interaction</hr:CompetencyDimensionTypeCode>
+                    <eures:Score>
+                        <hr:ScoreText>B1</hr:ScoreText>
+                    </eures:Score>
+                </eures:CompetencyDimension>
+                <eures:CompetencyDimension>
+                    <hr:CompetencyDimensionTypeCode>CEF-Speaking-Production</hr:CompetencyDimensionTypeCode>
+                    <eures:Score>
+                        <hr:ScoreText>B1</hr:ScoreText>
+                    </eures:Score>
+                </eures:CompetencyDimension>
+                <eures:CompetencyDimension>
+                    <hr:CompetencyDimensionTypeCode>CEF-Writing-Production</hr:CompetencyDimensionTypeCode>
+                    <eures:Score>
+                        <hr:ScoreText>B1</hr:ScoreText>
+                    </eures:Score>
+                </eures:CompetencyDimension>
+            </PersonCompetency>
+        </PersonQualifications>
+        <EmploymentReferences/>
+        <eures:Attachment>
+            <oa:EmbeddedData>ZGF0YTppbWFnZS9wbmc7YmFzZTY0LC85ai80QUFRU2taSlJnQUJBZ0FBQVFBQkFBRC8yd0JEQUFnR0JnY0dCUWdIQndjSkNRZ0tEQlFOREFzTERCa1NFdzhVSFJvZkhoMGFIQndnSkM0bklDSXNJeHdjS0RjcExEQXhORFEwSHljNVBUZ3lQQzR6TkRMLzJ3QkRBUWtKQ1F3TERCZ05EUmd5SVJ3aE1qSXlNakl5TWpJeU1qSXlNakl5TWpJeU1qSXlNakl5TWpJeU1qSXlNakl5TWpJeU1qSXlNakl5TWpJeU1qSXlNakwvd0FBUkNBSFFBWDhEQVNJQUFoRUJBeEVCLzhRQUh3QUFBUVVCQVFFQkFRRUFBQUFBQUFBQUFBRUNBd1FGQmdjSUNRb0wvOFFBdFJBQUFnRURBd0lFQXdVRkJBUUFBQUY5QVFJREFBUVJCUkloTVVFR0UxRmhCeUp4RkRLQmthRUlJMEt4d1JWUzBmQWtNMkp5Z2drS0ZoY1lHUm9sSmljb0tTbzBOVFkzT0RrNlEwUkZSa2RJU1VwVFZGVldWMWhaV21Oa1pXWm5hR2xxYzNSMWRuZDRlWHFEaElXR2g0aUppcEtUbEpXV2w1aVptcUtqcEtXbXA2aXBxckt6dExXMnQ3aTV1c0xEeE1YR3g4akp5dExUMU5YVzE5aloydUhpNCtUbDV1Zm82ZXJ4OHZQMDlmYjMrUG42LzhRQUh3RUFBd0VCQVFFQkFRRUJBUUFBQUFBQUFBRUNBd1FGQmdjSUNRb0wvOFFBdFJFQUFnRUNCQVFEQkFjRkJBUUFBUUozQUFFQ0F4RUVCU0V4QmhKQlVRZGhjUk1pTW9FSUZFS1JvYkhCQ1NNelV2QVZZbkxSQ2hZa05PRWw4UmNZR1JvbUp5Z3BLalUyTnpnNU9rTkVSVVpIU0VsS1UxUlZWbGRZV1ZwalpHVm1aMmhwYW5OMGRYWjNlSGw2Z29PRWhZYUhpSW1La3BPVWxaYVhtSm1hb3FPa3BhYW5xS21xc3JPMHRiYTN1TG02d3NQRXhjYkh5TW5LMHRQVTFkYlgyTm5hNHVQazVlYm42T25xOHZQMDlmYjMrUG42LzlvQURBTUJBQUlSQXhFQVB3RHBqaWtIdFFLV3JJdUI0b29vRkFBQlJSUlNRQlM5cVFkS0tvQW9QV2dVR2tBdWFPOUpSUUF0SmlqTkdhQUNsb3hTVUFMUU90RkZBQm5tbDYwbEllRG1taERzMFVtYzBVTUErdEZGRkF4YURUVFNpaEFMUlNVQ2dCMUZONzB0QWdKcFJTSHJSUU1XanRTVW9vQUtLTVlwS0JDaWlrb29BWE5GQUZCRkFCUmpOR0tNVVhBVEdLRFMwbERBU2lsNG94UU1iUlJpaWdBbzRvTkFwQUdLTVV0SVRURUZCTktEU0hyUUF0SWFYRkE2VURBVWhwYUtRQ0Npa3djMHRBQzhacE1jMHZhazcwQUxTR2lpaXdBS0RSbWdtbUFVVW1SUzVvQ3dVZGFNMDNjQWVhQUhVVW03bWx5TTBBRkZHNFVoYk5BRHFVZGFadUhyU2cwa0E3dlJSU1pwaUZwYVROR2FHTVVVRTBob0ZDQVdqakZGQW9FSVJTaWcwWm9BTTBVaE5LT2FBQ2dtaWtORmdGUHRTVWMwVUFCcEtXa29BU25mV2twRFNzTU1VVVVDZ0JSU0htZzBEbWdRVVVBVXVNVXdTQ2pyUnpRZXRJQTZVQTBkYVRwUUF2V2lqRkZNWVVZb3BLQXVHS0RSbW9aWkFvNTcwQVBMWXpqNjB4M0lIQXJHdjlSa1FGSWR5c2VTeDQ2R3NlUzR1bVBNOHYwREVWTEE2c3p0a1pISHRRTGhTTWhzWS92Y1Z4Wm1uNUJtbHg3dWFoRXN2UHpuRkNZN0hidmQ3RnlDR3lPTnRWVGZ1eTVJMm42ZGE1SVhNNDRXUmhVc2Q1Y0tRTjdObnJ1T2FMaFk2WWFxNkFnb0gvSVZJZFhRRG1CaHh6aGh4V0FsNkFNc2hJUEpJUElwajNnWmp0NFU5QWVvb3VGamZHckZ3ekFDTUwyWVpxUWFsRUFGQmFSdU1sZWxjeVppVkl6MTQ5cWtzcHlIWUFuSEJ4Mm91RmpveHFTNVhLTUFlcExkS3RXOTBKdWdHZlE5YTU0ekJlYzVwUmVCR0JCYjF5TWNVSmhZNm9Oa1pCcGMxbFcrcFc4dUNKbFVub3JIa0dycG0ya0RjdnR5S2R4V0xGRlZSZEp2MkZ1ZlNyQWRTTWltQS9OTDJwZ0pKcGVhRUZ4d3BSVEI3MDdGQXJoUlJSaWdBQTVwY1VkS00wQUdLTVVaOWFPdEZoWEVvNG9vNjBBZ294UWVLUHdvUXhEUlJTVURDbHBEU2lrQVlvNzB1S1RGQUFjVUNqSEhXZ2NkYUJDMFVIRkpRQXRKU2lnMEFKamlrcGM0bzdVd0VvSm9vTkF4ck5nY1ZuWFV4RGxmUWRLdVR5Q09KbkpBeDYvV3NtZmtsaVRrK3A2MGhwRlM0VXQ4M0pxaEtRRGp2VDU1anVLNUs0T2VEVk15QlR5Y24xcUdXa0tUa25JcU1oYzRJNE5QTHFlaEdhZ2VRYmo2MU43RFN1T2NCUU1WSHU5VFI1Z1lEUFdvWkg1R0tMaFlsODF1Um1tN2lEbW9IazVHT3RHODQrdnZSekJZdDcvbHBJWk5zdWMxVGVWZ05vTkNOaGo3MFhDeHJHWUhqUFdrZWNCZXRaeG1JQXFONXlSeWMwK1lMRjgzQ2tZNzA5YjJXSmdVYkJIOTRrNHJMRGtubXBESmdDbXBFMk55RFdKMHlYK2NkZWxiTm5ybHZNd1dSR1JzRGs5RCt0Y2FrbnpBbnBWaFpnY2dqaW1tSnhQUWtZT29kR0RLZTROVEExeHVrM3B0cDFUY2ZMYnY2VjEwYkJsQnlDRzVHS3BNa21HS0QxcEJSVEN3dWFDS1Nsb0VHS0tLS0FDbG94U1U3aXNHT2FYcFFSbWtJeFFNRHpTSGlsR2FLUUNkdWFUT2FXa1BGQUNqMzZVdjBwS1drTVNscEtXZ0FvNzBtQlNpZ0FvNlVEclFhQkJtaWtwS0FGd0tLQ1BXaWdCRFRIYmF1YWZpbU9NcWFZMFpkN0tDaDh3a0t1V0dEM3hYTTNVKzQ0M3N6TDFLbmdlMWREcUFEdnN6d3E4ajFKcm03OVFseXlydHdCemp1YWhsSWdMbkhYSnFCM3gzcFMzSFg4YXJ5UDE3ZmpVT1Jva1NlYmcwMTM0elZmY1IzcE56TlVPUlNSS0pUdXlhQ3hidlVhb3pNQlVxd3R5RGowcE9RN0VKSkxaelVtNGJhVVFFNXdlZW1NVTVyVnhrY2pIclN1UGxLNWI1dUtRUGhzazFPbHE1SnlRUHh6VERheUFObE9uTlZjWEt4aGwzZFR4VFF4UFRwVFhqS2NISTl6U29oQW91S3hJR05MMTRKcGhQcFNnYzBjd3JFaXNjNHFaV3pVR1FvT0R6U0JpQmttclRKYUw4VSt3ak9DTzlkdm90d2srbnhzRzVYS2tIclhuaXR1NnRpdHZTdFZObmRBazdVSnd3N1ZhWkRSM29iSTQ2VXRRUlNLOFlkR0JWaGtFVk1LdEVzZG1nVWxGREVPK2xGSlJRZ0RudlMwaG9vQVdpa29vR0ZCTkJwTTBDRXpSbWcwQ2dCUlNta29wRENpaWlnQXBjVWxLYUFERkJGRkhOQUJSbWdVbmVnUXBwcHBUMHBLQUY3VkZJY0tha0p6VmVWd281NEhxZWdvR2pMdlYycEpNZUNDRG11VG5tM0VzVG5KSnJiMXZWWTFVd1JxV0liSlBGY3RMTG5jd0dNblAwcUd5MFBNblBUaXE4amJ1Z3FMenVmbTQvcFZ5QzFFaXE4aE8wajdvemsxbEptc1YySzBjYnlOaFVaajA0SEFxN0RaRlJtVGcrZ05YWW9sUkFvRzFSMnFZSUFLeWNtYXhqM0t5Mnlqa0tvUHJpbmlBWkIvcFZvSUtDdU9nNXBYdWFjcUloSGo2ZGFER3A2Z0dwZHA3MEVEUEZBMUVoRUNnNUNESitsSGxBZGdmeXFjQ2tJNW91TnhLalFMdkoyajZWWGF6RWFZQVVuMkZhVzBIdFFZd1J6VktSRGpjd1h0MlhKRlEvZHJkZUJXNHgrZFZKYkpHSklKVTQvQ21wRU9Gak5IekdwQU94cHJSdEV4VnhoaFNvZTVwM001UnNLRkk1RlRLeEE1SFdrR0NCaXBCR1NNaXRZNkdiUjBYaHJVMlNaYldac3FWK1UraHJyeHdTSzgwaFdSSkZrVWxTckFqRmVoV3NwbHQ0cEMyUXlBajZZclJHY2tXZ2FYdlRSU2cxUWhUUVJSMW9vRUdPS1h0U1Vwb0FTbCtsSlJpZ0JEeWFOdEhTbHpRQWxGRkZBQlI3MFpwYVF4TzlMU1VEclFBdEdLS1NtQXRCcG9wMUFDQ2xPS1FpanZTQUtRaWxwS0JER09CeFdIcXVvbFhNTUpIeWc3aWU1TmJFeCtVak9DUmdHdVZ2VzhoSlpIR1dCNDNEcmlrMlVqQnVBNWN0dXhqanFUM3JOTGtIQkl3YXUzRXJ5dVIxVW5nQWRjMVBCWkxHMjl4bHUzY0xXY3BHc1kzSXJiVHdUNWtvREhxRjdmV3RKVUdjbjA2VWdIdFR4ajFyR1dwMFJqWVVjQ25yVFJUZ1JuR2F6WnFrUEFwU3RLRndLVTlLQUV3R0dCU2JTRFNnWU5BNUpwanNLRkZOS2pQRk94aWpHZXRJWTBqQXBwcVFya1lwQ3VCUUlpSzVwanJuMnFiT1RpbWxTVGtHZ1RSVGxoVjBaQ29PZldzcVdGNEcydU92SUk2RVZ1c25CcUNXRkpVS05uSFlqcUt1Sm5LTnpNUmdBQVRWNkpnUVRtczJaSGdmYVFRTzN2VTl0SUdZS3pLUHFjWnJXTE1KYUd0Rkh2WGdmL1hOZGRwbWY3T3R1YzRVQ3VZUXB0K1hhQjJBNlYwMm5BQ3hnSTUrWFAxcldKa3pSSFNseFRSd0tkVmtNVVV1YVFjVWRhQkMwVWxHYUFDaWdtakZBQWFNVW5ORkZ3Q2cwR2tCb0FVOWFXa3BjMFdBS1RGQm9vQUtDS1dqTkF3eFIwb29vQzRHbTB0SEZJQktDY1V0Tk5BRkc4a0d4c2tnWXhYR2FwZEdlVFlIeXE4WUE0TmRGNGhuTUZ1RlRxMkdKOUs1SXI1amhBU0J6VVMyTGlyaTJxTHk1T1c2QTFaejNwb0FIQUFBOUJUaDk2c0pNNllSSG9LY1Jta0hCcDFadVJza0tNSGlwVVZSeWV0UUE4MU1wT0tWeWtTbHNEcFRTMmFRbW01RkZ5aVVIamlnY2MwMWVsS0JqclFBdldnZGFNOFVnb0FlY1V3ODA3SXhUR0lKNG9FaHUzbWtQQnBSMXBEMW9CalR5S2FWR0trSTU0cER3RDZWU0lrVmJtMlc0Z1pDQURqS3Q2R3NGdzhNcklXNVU5UlhTZzhWajZ4YmpjbHdnNjRWK0sxaXpDY1NXMHZHVkFoSkF6Z1l4ZzVyMERUZGpXTnVVNkZNRC9QNFY1aEE2N2Vlb0lJcnYvRDl5SkxQYVRqSENqUGJyVzBUQ1J2QWcwb3FOQ2U5U0ExYU14UlMwbWFPbEFDbWdDazk2VUdnQU5KUWFNVXhCU0dqSE5Cb2FBS01VVVVnRm9wS1dnWXRGSWFPOUFDbWtvb3BDRkZGQnBDS0JoU0dqRkxpZ0JLYTV3TTk2Y2FhM1Q5S1RBNXJ4TnRXT01aK1o4ZmtCWFB4TDh4SkhOYTNpTzQ4elVSQ01sWVYya251VHovaFdVbVFNbnJVU2VocERjZjBvSEJ6Um5Jb0FDbnJYUEpuWEVlQjYwYjhjVWdhamJ1YXM3bXFIZzU1cVJjNHpTQUNuakZLeFFETlBDSEhOSlR0d0Fxa01NWSt0Tk9hZVR4a1V3NU5BZzVKNHBlM3ZUZWxPQXp5YUFEYmltc0RUd1BXa0trMEFSZ05UcUN0SEdLYUJqZVFhUm1CR0RTMHc4R3F1UTBGVmI1TjluSW1Nbjd3OXNWWnBqak9RZWhCQnFrWlNWem5VNmpqM3JzUENjcmVXeWtjQnR1UjJOY2tGd0IzOTY2N3dneUZiaU5pTjI4TU0vU3RZczVwcXgxeURqMDlxZU9sTVRqdnpUcTFSa083MGRhUVV1YVlCaWw0cE0wdWFBRTcwVVVVd3NGSlM5NktCQ1pvb29wQUZLS1ROQUpwREZ4UlNFMEEwQUxSbWt6UzBBSDFvelJTR21BdWFUTkZCTkt3QVRUU1JuSHJRYVl4MjVidW96U2FBNFcrY3lYMXd6RXN4a1lFbjYxRFFja2x6azVKUE5NR1NjOXF6bXplQ0pSMHBEM296VUQ1T1NLd2tkRVNVTnlPOVNiZ085WjRkMEpOTzg4bmoxcUxYTDVqVFdSU0JtbjU3NXJKTTdnZlNwSXJ0Z3BYT2VlOUZpMUs1cm9RYWRnWnJOV2NrZGVhc3BPTWNubWk1UlpOSWVsUmlaYzlSU2x3ZWhwaUhyZ2pOTGtDbzFlbXUyT1JRQktEejFvTGdIbXFobTY4ODFHOCtGR090SVZ5Nkh6bkFwcEsrdFpwdURuQjcwb254anZUUkxrWDhqTkllYXBwZFpQSzQvR3BEUGs4VlNRbklrSnhUR1BCSXowcDJkNHFKampJSjQ2VTBRM2N5WlFBeDJxVkhPQWEwdkRjN1I2dXZ6N1E2OCs1cWpjSU4rUndLclF5dkRjSThaNVZnUlcwR2MwMXFldUwyUFlqSXA0ck8wclVGdnJLSjhqekFvVmw5d0swQWEyUmt4MUZBb29GY1BwU2lrcGFBdUdhQ2FEeFNab0FYTkZKUUtZQjNwTzlMU1pwQUxSU1pGR2FRQ2cwWkZKbWt6UUE0KzFBelNaNG96elFBdWFNMFpwdWFZV0hVR2t6U1pvdUFFVkZLd1dPUS83Qk5TRTFTMUNVUTJVcjhjZ3J6OURTYkdrY1FXL2RnZzlSVFZKSkZOTGZLTzRxUkJ4a2Rhd203TTNwb1ZqbmltZEtDeDNjOFVvNS9sV0xaMFJRb1JTYzRISE5TRlF3NUMva0tpTTZBN1JsajdkQlNiMlBmSDBGSXZsdUxKYWhsSURiVG5xUnhWVnJkMGJnWjl3YXRiamdaSi9DbU5ucURuOGFRSldJQXpLMkRtcGxuSndLYVNyY0VjMUg5MXVLVDBMVExxTmtET2FuQ2tnWUpxcmJrdFY0WUFGQ1pWaHZLaW9aSE9UazRxZDJHRFdlN2xqeHdLZHhNUjM1NjAwTm1uQkJqSnBWakRIaWdsaUNIZTNQSHZWaGJZQmNkZmZ2VEJHVjZOVHQ3b09mbUFwcGt0RERhN1d6a0VZb0tFREhOU3JNcnFjSG51RDJwRFZYRTBJaCtVWXBIUHJTaW11TXFlYUxrTXBTRGNTT3RVMVl4VEt4VUhhNEpIcjdWZUkrWSt0VTVsQlk0SFBldFlQVXdtZWs2VkhiTGFwSkFvK1laNDl4V29BS3hmRHE3ZEpqSllzVGpCNTRyWkdjMXVqQnNkM29wQlMweVFwUlNab29BVTBVbmVqTkF3b05GRkFCU1lwYWJRQW1hS1p1R2VsT0RVZ0Z6Um1pazcwQU9GSWFUZGlsejZtZ0F6UlNVRTBBTG5ta0pwT00waFBOTUJTUldScjdiZE5QUFZoK3RhcFBGWUhpR1Q1STRnUmdua2QrS2xqUnpUTDB6MEZQemhlS1ZoenlLWEFJNHJuazdzNllFUnlldFJ2SVZJeHhVam5ieUtxT0drY1k3Vmt6b1NIb3lJRnljY1ZYbTFNSWRzTVh6RCtKendQeXF5dHNOb1lzU1IyeHhWYTUwNXBabWVKbEJJeVExTkpQY0pOcGFERnY3M1lHWklTcDQ5UDYxYWl1SGxoRG1NcUNQdkRwVlZkSnVGSExvT09oeldoRUhnZ1NJRlcyakJPT0RWTkxvVEZ5YjFJbWJmeXA1cUxlMjc1cWtFUkQ4ZmxUcEZYSTlhelpza1dMWTV3YzFjSElxcGJLQWVmU3JRUDB4VUZFTTdNRklGVXkyS3QzSEE0NzFBRUJYT0t0SW1SRTByRWVsQXVFalhjejdRT3VmclRIWExjdGltM2NTZlltTWFuY3BESDF4VkpYSmJzUEdxV29PRGNFZHZ1TlU4VnhETXA4dVpXOWdjSDlhNTd6eWpjYlNmY0NyR25STkxjbVFBcW9CeXc2QW1tNHRFUnFKdXhybHRyQmhVd2ZjZ1lER2ZYcUtwNzJEWVlWUEVRdWV1RHpVR2pTWk1yRTA0NUtuRkFBQW9Kd0RWTFV5YXNWKzV6VkdmSWR2VHRWNGNrNEZWNVYzU0RIWHZXc056R1oyL2hlVHpORGpKWUVxeEgrZnpyZEJybFBDR1VndWszSEc3Z2Roa2YvQUZxNmxUOG9ycFJ6TWVLVTlLYlNnMENGRkFKeFJpaWdCS1VVbExRQVpvNjBVWm9BTTAwMEFuUFNqTkFFV2FVR21VQTBnSDdzQ2pQZWt6bWtKb0FkbWpOTXpSazBBUHlNY1VacHVhUW1nQjJhU2t6UVRTdU1EeVFLNVBVWGVTNGFWd2RyRWxjK21LNmlRblkyT3BCQVBvY1Z6MnBvTXdBRHB1SDRjVW1VaksyazgwMWhqR0J6VWovTHhVUmJKd0s1cGFIVEJYR2xRM1dvSFRhM0F4Vm9BQTQ3ME5GdVBlczc2blJGRUtQczVPS2tFeUU4S2MrdEJ0QzJUdUErb3BCYmtjQS9wUmNxdzRPZzk2alpoMUZUR0VBVTBxQjJwM0JJckhPYzRwdU1tcFd4azRwbUJTdmNFckZpQVZZSXdPS3J4VllBd0trdEVFdjNlYWdCS2c0cWVVQThnODFFQUNjR21oTWlKREhKNjA0S2NpaDAydGtEaW54c0NSbW5jbHE1Q2JTSmlDWUVKK21Lc1IyNlJKdFJGVWRjQ3JLSUNCZ2R2U25Pdnk4NUFxNzZFcUNUdVVwVVVEajhxaUNPRGxlZmFyVEZCbnVhYWpEUEl3S2tzY29KVVpHS0NGeGpPRFQ5d1BTbUFBdHlLRE9TSytOakdvM0h6WkhXcnBpeVNSaXFqcVZZOFk5alcwV2MwdFRmOEpQL0FLUk1tY0U0T1BwWFdyMEhwWG4ybFhEMnVvUnVIQ0t4Q3NlMk05NjdxSzRTVWJrWU1DYTZJN0hQSkZrVVpwQWMwb3BranMwZ0pvSFdpZ0FvcERTMEFGRklUUlFBVW1hV2tvQXI1b0JwdWFNMUk3RDgwRTAzTkptbUZoOUdhWnVOS0RTdUlYZFJTRTBoTk1ZN2RTRTAwOWFRbWtBcDVCRlllcXFVUlNFQXljRTQ2YzF1ZHF6TlZSbnRIWUhBVEIvV3BaU09ka2FvU2ZUclVrdldtb3VEazlhNXBQVTdLZWlIeEpuazhrMVlDNDdZTlJJY0dwZzN2V1p2RVVpbUVZQXArUlRHTk1xd0U1RlY1RGdFVkk1T0tyeXRpazJPeENTUlNqbnBTRGsxTWk0cElFaDhReGpOVDd1S2pWTWpOUEM1NE5VVWtSU0ROUVk1cTBVeG1vWFFqdHhTRTBJTWREU21GR0hURkluWEJxWWRLQVNJUElJUERFREhZa1ZJc2ZIek1UOVNhbEFCcDZyUmNHaGl4S2UxUEtLRis2djRBVTREaWc4RG1nbHF4WFpjSEE2bWtCSVBOVEVnOXFpa0dlUlRJa1NJY25GVjdrQU9PKzVjL3JUZ3hVWm9mNTF6a1pyYUxWam5sSFVoVlczQWorOEQrdGQ5YnhsRVFIQXlvUEhyaXVJczREUGZRUjRKRFNLQ0IzSGV1K0tnTnhqQTRHSzNqc1lWRlprZzRwYzAwVXRXWWk1b0pwS1Uwd0RJb3BLWEdLQUNrb29vQUtUR0RtbE5OSXpTQXE1b3pTWjlhUW1vS1k3TkZOSnBBYUJEODBBMDNOS0R6UUE0MG1UU0UwWXAzSFlYTkZOSm9KcFhFQmJ0VkRWMzJhWExqR1dJWDlhdlZsYTZDYkZPL3dDOEF4NjhWTExpdFRuaXhKNU9hY0NEM3pVYkgzelRrT2E1NUhZdENVSDBxVVk5YXIrWnQ1cGpYQUFKenlPMVpzMlJjTGdDb1hsQTZkS3AvYUpIenlBUGJ0UUdZakJKb3VhSkV6dnYrZ3FJSGUzTk5KNHFGcHZMem5PUGFsY2JMV0JudFQwYkp4V1EycGZOZ1J0OWNqL0dwSXJ2Zmc1STlqMXFraUxtNUgwd2FtQVVWbXczR09oNHFZWFE5YUNybGlWd0JWUm41NjAyVzQzSHFBTytUamlzNlRVWWtjQWJuOVNvNG9zSnMwd09NMHUvQXFoQnFFVTJBb1pmOThkYXVJd1ljMGhwa3l1TWMxS3JuQXhWUSsxSUpTcHp6eFFNMEEyYUNjZ2dWV0V5NEJ6MXA0Y01lS1pMRnpqclREeWFISnoxcUlzZldpeERITjB4UUYrWEkrdE54dUhCcVpGM0xnQ3JpUTBpOW9VVFNhdEVjWUNibUovRC93Q3VLNjljazV4V0Q0Y3RkcXlYVFp5Y3hwOU01eitnL0t0OVR4WFhGYUhGVmtuSWRpak5GRldZZ2FLS0tBRjcwaG9QRkE5cUFFcGFhVHpTWm9BY1dwdTZqUHBSbWtCVG9OR2FRa1ZCWWhJRkxUU1JrVVpBNzBFanhSVFFhWE5BQzVvelNab1BOQVhGb05IYWt6UXhvTTFtNndDYkU0NTJ1R05hUnFDVlZkSFFydVZoME5TeW82TTQ0am5wajJvQTk2Yy9Ya1lJcGdKSnJDVzUyUjFJNW5JRlYxVm5iSjZWWmRDM0hVVTNHM0FGWnMzaU9RZHFSdXROM2dIQnBDMlRVczBURnp4MXFGMXllUnhVMk05YU52TkZ5bll6M3R3V3lCVFRDeWtrY1ZvR1BKNG84a0h0VkptTFJSVjNGUDhBUGM4Wk9hdEcySFh2UWtISEl5YWVnbGNyN1hjYzlLak5xcDlLMEJFZTRwQ2dIU2dkaXBGYnFoNHlhdXEyMVF0TUNZTk95QjBwTXRJa0RjME1BUlRGUE5QM1Voa1JESmtxZWFraW4zWkIrOE8xTlB0VU1xY2JoblBUSHJUSWtYZDI0YzB3RWpPYWJFU1Y1NTk2ZjJwb2lSSWk1WE5Xb0l5K0VBNVpnbzl5YXFJVGl0ZlIwTDM4UzdjaFR2SjlNZC96eCtkYVJWMlJKMmlkTEJFc0VFY0svZFJRUHFlOVREaW1Ecm1uMTFwSG55MVl1ZWFkVEtmMnBraVp4UUd5S2I2MEE4VUFPUElwdTdqRktUU0dnQW81cEtYTkFDVUdqTkhXa0JUN1UwMHVhUW1wTEdubWt6UzVwS0FIZ1VvSXFNR2x6U0pINW9CcG9OTGtacGdIT2FDT1JTOFVoT0tUQzRkS1l4SllZcHhhbWdaWVVpa2NyYzQ4MlRIUU9RUHpxcDBQTldybERGSzhaNUtrZ0dxaE9PYXhub2RsTFlsQUhGTWxRVUl3WWp0VXJESXJGblFtVVpRUjBGUkNZQTRKR1NQV3JicHdhenA3TXVlTWM5UWVob0M3NkZuemxDNVpsQUhVNXFRVFJzQmhsSVBjVnpjOXBjV2syNEtRb0c0TUd5TVkvd0RyMVl0cHBXZkJKSjlEam1pdytmdWI2T3VjWkZTZ3IzckxDeklOMnh0dnJpcEZsY2dFZ2owNG9zTlNUTlJWUnFkc0FGWm91R0I0YkI5cWVicG1PU2VUVHNJdkVManJVTEFFMVdNNXoxcUpyaHNrWjQ2VVdIZEZzcUIzNXBtTUdxaG5ZZ0hsaFZDNDFhYUtVSUVWc2NuakhmRkhLdzVramFMWTZVb0p4NzFqMmwvUGVPQXNRQXpna0N0cEZJVUU5YVZoWHVPQzVISXBYVEtnQVp6VXlMeG52U2xRU0tBSWtRcWdCT1NCeWFNQS9TbnVjZEtpWDVtNHBvemtUeGtEOEs2ZlE3VVIycHVIWER5NUNrOWwvd0FqOUs1MkdOV0FRL3hFRFBwelhhcXFxcW9CZ0tvQUZkTUVjbFdmUWNPQjcwK21VdGJJNTJPcFFjQ20wWnAzRUxSUm1paTRXQVVkYVNqTkFBYU8xSlJtZ0JEUlFhQ2FRRkltbTBwT1RTWnFTd3BNMFpwS0FGb0JOSm1sQjlhQk1kVGhUS2R1b0VCNjBsRkpTQUNhUTVwVCtsTm9LUm5hblpKTERKY0RpVkZKT1A0c1Z6VEhQMHJ0U29ZRlQwWVkvT3VOdUkyaG1hTmh5cDIxRWxvYTA1UFlZckFIa2lwMGJQQXFtd3lmZXBZbnhnWTVybVoyeGVoTTY1SHZVSkFQV3B6eU9haFlZTklzaWtqRHJncUNQY1ZubXkyTWRod01jRTlxMUR5S2FWeUtGSVRpbVJpNEtyakRaSEdLdUM1aU1PU2VDdU1ZOXVhcWVVTzlLSXdCZ1ZTSmNPeHF4TEVZRkFSR1RBNVpSbW1KYlJMY3ZJWTFJS2dLdUJnR3FBWEE1RklFQ052R1ZJN2pOVm9TNHlOR2RJaXFoMFZWQjRCQUEvenpVTTVqK1JpRUdEZ2NWVGxTU1lBTTdNQjJKcG9nd2ZmNlVYQlFrTXVYUjVDUW8zZE1nVlJuc0Rlekk3TVZBK1U0SEpGYVN3NFlrODFLRXhqQXFYSXJrN2tVRnNrRVlTTmRxK2xYRVVZd2FhQm1wRUJ6VTNMdFljQUZGTkpIV25NUUFjMVhMSEI5S0xFdDJGWjg1SGFpTVpPQlVSUE9NMVp0WXZOdVlvem5Ec3E4ZTVxNHh1ek9jckdocGNCdWJ5SkIwUWhtT093TmRhZXB4VU1GdEJiS1ZnUlZYMUE1T0ttSFN1cU1iSERPVjJLS0tCUm1yTXhhQlJSUUFwb0JwdjFwYUFGcE0wVWQ2QUFpa0ZMbWtKcGdCNjBsTG1rNG9Bb2tVaG9QVEZOUEZRVWhlMU55ZTlMU1pwREZwUlNVQ2dRK2lrbyt0TVF1YU0wbEpTQVUwbWFUTkprMERRcEh2WFBhN2JsYmxabEhEamsrNHhYUVpxcGYyLzJtelpCOTVmbVg2MG1ybHhkbWNpUmc5TVUwZ2hnYzFNNm5PR0JERHFEVVpHZUJYTkpXWjF3bG9XVWJjb3BISEh2VEltd2NHcFNSaklxR2Jwa0l5T3RKbm1uSHJTWUpHQlUzS0RJTlBCSHBVZXc1cDQ0N1ZTWTcySk1qOGFWUUNjVkVSbnBUZ0RWWEM1S1FvSEZNT0tRR2c4MG1BcEhGS0JUTUhOUEFwQXhSeDFxUlR4VVlHNDR4VWhPMWFSSkZLNUpBcUxkU3Nja21tWXl3cG96a3h5cmxobnBXM29GdVpyL3pTb01jSzUvSHQvV3NZQWtoUU1rOEFlOWRucGxtTEd5V01nZVl4M1BqMXJwcHgwdWN0V1hRdkE1T2FjS1lPbE9IU3RrY2c3TkZJS00weGk5NktNMFpvQUtXa29vQUtDYUtRbWdCUWFhYURRYWR3Q2t4UlJuRkZ3S0JKelFUUlNFODRyTVltYUtTak5CUW9IdlRoVEtVZGFCRWxKVFFlYVVtbUlXa3pSbm1nbWtPd0drSXpRVFRjMERDZ2lnR2dtZ0RuZGFzbmlsKzB4QW1OajgvK3lmZXNySkZkcXlLNnNqamNyREJIclhKNmpZUHA4eDZ0RTNLTmpnZXhyT1VibXRPZHRHVmcyRGtWWURBaXFRWUhJSXFlSitNWjVybWFhT3VNa3liYUNlYVFyenhRRGtVdWNpcGtiSVFBOTZkdDQ5NmFyZk4xcHdHVFFoMkhLb3A0UVVnK2xQN2pIU3F1SWFVQUZJVXpVaktUelVSWTlLTGpRM2JnMDRESXBvYko5NmVUaWtKaURJT1JTT3gyMHBOUk8yYWFKYnNOempOSnUyOWZyUVRudlRTTS8xcTRvd2s5RGM4TzJhelRTWE1vQk1mQ0w3K3RkUURrNTcxNWRldGQ2UmNSYWpZVHlyRzU1VWs0ejZWMkhoM3hSQnJLQ0NiYkZlcU9WUEcvd0I2Nm9yUTQ1TzdPakZLRHhUUWV4cGZwVkl5RnpTMDBtbEdhcXdYRnBhVE5BTklCMUZJYUQwb0dHYVNrK3RHUURRRndORkI1b29BRDJvT2FUdlFUUUJRSnBwNW9MVWxRT3d2YWdVM05GQXgxS0tUTkFOQXhSU2swMmdkS1pJcE5KbWlqTklZR2lqTko5YVloYWFhZG1tbWdBRlY3eTJTOXRaSUh5QXc0UG9hc0gyTll2aVBWUnAxaDVjWlAycWJoQU9vSGMwbVVqbTVWZUptVmg4eWtxU08rS0lwRG5nMG9qWkxXUGR1eVVHU2U5UUViVHdhd2tqb2hKN21nSk9Pdk5USXdZZGF6WTVDTUExWUV1T1JXTFIweGxjc2tnZHFlaHF1a204NEdhbUhIZm1sWTFUSndlT2FVRWQrdFJCamlsRDg5S2FRWEp3M0hTb1pBUnlCelM3K0thV3lPYUxBbU1YSVB2VGljanJUU3c3VkcwdUFTVFJZSEpXSE0vUFdvaStUVWJTYnVsQzh0VFNNWlN1UEJxVlZiampxUlRGQTdpcDA2Z0NyaVp5MVJGWVFmMmhwVjVaeThsU1FEam9lMzZpdU9pbm1ndVZlTmpGUEUzWHBnai9HdTkwQk5zOTh4R1FKQU1ldkpOY2Q0Z2dGcHI5MmdYYXJOdlUvWG4rdGRjTmppbnVlbitITmJUWE5ORXBJRndtRmxYdUQ2L1N0Z0hOZVBlR3RaZlI5WlNZOHdTRHk1UWV3SkZldkk2dXF1akJsWWJndzdnMDNvU21TZ2lsTk1IMXB4T0tFSUtXa3pRS0FIQ2twS1FtZ0J4TkZOb3AyQzR0Qk5JVFFSU0dMU1VnNjBFMEFaOU5ORkJPS2dzQlJta3BUN1VDRnpRRFNFY1VENjBESDVvTklLRFRKRjdVMDBFaWt6U0M0NDBoTkptZ2tVd3NHYUNhUXNLaHViaUswZ2FlNGNSeEx5V0ovbFF3c0xQUEhid3ROTXdXTlJra212UFh2SDEzeE1yZ1lqTGdxRDBDcjEvbFRQRVBpR1hWWkRIRUNsb3B3cWsvZTl6VFBDbzh6V2pqb3NUSDlSUzZEVE4yOVpuY2tEQUhGVVdBQk5YWnh0dVpVSnlReDcxVWRlYXdrOVRwaXRDRW5ielRnOUREaW9qeFU3bHAySmhJUVFRYW1TNVBRbXFXN0dhYXI4bklwT0phcUdzdHdEZ1pwM21qZFdVSk5weXBxVlpzOSthVmpSVE5NU2pHU2FhMHFua0dxQWt6M3B3WXNhTEE1a3p6Y1lGUmtrbk5LRXp5ZUtlcUFETk94bTVOZ3FBZ0hyVDFUQnpTZ1ZMakl3S0VTTlZjdDdWSTJFVWs5S1ZWNHEzWVdodTd0UVRpS1A1blB0NlZjWTNZU2FTTDJtMmh0TEg1bDJ5eXNYYjFybHZHOW44MXZmcU0vOHMzL0FLZjFydUpqa250V0Y0aHRqZGFMUEh3RHdRZnB6WFZGV09LVHVlYmpuamRqbXZRL0JHdmlhQTZYZHpmdll6bUJtNHl1T2xlYmdFS0QwcVNLVjBkWGlZcklwREt3N1UyMHpOSHZJYm5pblo0cmxmQ3ZpWk5YZ0Z0Y3NxM3lEdjhBeGoxK3RkT0RqaWxzVVBCcFJpbVpwYzBDSDhVbEptaWdMQy9Ta296U1pvdmNMQzV6Um1relNVREhHa0pwTTBVQVo1Tk5Kb1ByU1o1cUN4UlM1cGhOS0dwQVBKRk56ZzAwdGpyVFM0b0FtM1pwQzFSZ2s5TTFXdTlSdExCQzkxY0pHT3UwbjVqOUFPYVpOaTV1NTVwTUhPUUs0Nis4Y3dvQ2xqYk5Jd09BOG5DOStjVno5NzRyMWE4VWczQWlYKzdIOHY2am1nWjZYYzNVRnFvZTR1SW9oNnN3WCtkWTExNHYwaTJVN1ptdUc2YlkxL3FlSzgya21Namw1SFoyUFVzMmFqTCttQlFGenNycng1Y3lFSlpXaVJML0FIcFR1Si9EcFdGZTZ6ZjZnMkx1NVoxNjdCd3Y1Q3N0R1BlbEp6VEUyUGtrM05nSGdWdmVDMVo5V21ZZmRXSWduMHlSaitScm0rOWRYNExCRWwzSjJ3cS9sbWdGdWF1b29ZZFRKL2hsUU1QWFBwVloxNUZhK3EyclhGaUpZeG1XRWhoNjQ3MWtybDF6V0VvMjFPcUR1UXN2TlJ1QWVsWFBLeU1IbW8yaXdPUldhWm8wVVdVNUdCU2tHcDJqNHppa0tjVTdrTXI3T2V0QVhuak5XZkt5T2xNS1lQU3FGZGdpOCs5VGdZNXpVS3J6Nis5VHFqVWhva1VnKzlUQmVLWWdDZ1k2MU9veU9hVEtpaEZHT1RUZ010eFFjZEtjb0E2ZGUxT01iamJzT1ZHWmxTTWJtWTRBSHJYUzIxcUxLMldNRDU4Ym5QcWFoMDNUamFyNTh3L2ZuN28vdWlyajljMTB4alpITlVuZlloYXFGNm8relNnZ0VGVC9BQ05hRENxZHdNby8rNmV2MHEwWW5rVW8ya3JrL0t4R0RUTjJPbkZUWFdETkszKzBSeFZVbkI1cVdCYWh1Sklaa21oa01jcUVNckE5RFhhMm54RmxpaFFYZGg1ckt1MXBGYkJQdjBOY0VHNHBRMkJqTkRhWUhwMEh4RTB1UWZ2cmE1alBvTnJmMUg4cTFiYnhab2x5bzIzeXhNZXF5amJqOCtLOGU4d2tkc1VvWlNCNjk4VUFlN3czRU53b2UzbmpsWDFWd2FrM1lHZWE4SmltbHQyRHd6UEc0Nk1yRUg5T2Ezckh4anJkbW9YN1N0d2c0Q3pMdS9YclFNOVkzVUUxd2xwOFJVQ2hiK3haV3g5NkZ1LzBOZEJhK0t0R3ZNQ085V0pqL0RLTnVQeHBYQ3h0NW9CcUpIRHFIUmxkVzVES2NnMDROUW1GaDlCTk4zVW1lS29Sbmx2ZW1IZG5vYTRxNzhjM0RNRFoycUl2OTZVRW44T2F4N254TnE5eWNOZGxGOUl4dHFDejB1U1JZbDN5T2lLT3JNMkFLb1M2OXBVQUphL2lZRHNoM0g5TW12TUpwMmxZTkxKSTdIK0ptelVXOEE4QWZqU0E5QXVmR21uUnFmSmlsbWJQQSs2RCtmTlpGMzQ0djIzZlpiZUtKZTI0Ym0vUGorVmNzWkdPUFNveStXNjBDdWExenIycVhuTXQvSUR6d2gyajlLekMzemJpU3hQOTQ1cU10amswMHNLQk5ranVXNjB3c2UxSnVwcFlHbUljV3g5YUFTVG1tZFRUMUhyUUE4VUUwbkFGSm5OQUFHeTFkWDROZjVybE9lcW5GY3BYUitENVNMKzRUKzhnNStsTWNkenZJV0JHR0FJUEdLeU5Rc3pZVDdreDVFaHlwL3VuM3JVZ2JrZTNhcmpReDNNTFJUTHVSdjA5eFV1TjBhUmxabk1vb2RSNitsT2FQS2tWTGMya21uVGVYSmxrUEtzTzlLTUVWelNpMHpxaTAwVTNqMmcxRUkvV3J6Sm5yVVJUdlN1UGxJMGl4MnBYdHd4cXlnQkF6VW13VTB4V004UUZXSnh4VW9UMXEwNkRzS2FFR2FMaFlnQ2d0elVxajhxa0VlNCtncHlvQVFBQ3hQQXg2MDByaHNNS2RPRHowQTcxdjZUby9sZ1hOeW43dzhvamRCNzFOcG1qaUhiY1hTa3lkUWg3VnF1ZTU2MTFRalpITlVxWDBSV2ZPNzM2bW9YcVZ6ODFRdWNtdEVqQzR4dUFhenI5L0x0SjVPNFUvd0FxdnNjZzFoK0k1dnMralRNRDh4R0FmVHRRTkhtTHVkcEo2azUrbFFaeWFrYzhETlJWRWdBSDVzVTRrQ20waHptcEFlR3pUZ2U5UkUwOEhBb3VBOE42MDhOaW9RMU8zVTBCS0hPUWFlSEhBSzQ3NXFEZFJ1elRIYzByVFVyeXdZUGFYVXNSL3VoamcvVVYxRmo0L3ZJbUMzMXZITEZqbG94dGI5VGl1SUQ0cFJMelNiQzU2dlplTXRJdmVESzFzM3BNQUIrZGJjVTBjNkNTR1ZaRVBSa2JJTmVJcEpuT1FQcjZWUERkelFTRm9KNVlXOVZZak5BWEtSZnNLYnZwaDY1RkdUbnRTQnNmbm1rTFk3MHdrWm9IT2FCRGlhUTllYWFUaWduTklBTFo0cEtLRFFBQTRvenhUYVRQTk1CNHlLZUNhYUNPOUtDTThVWEFVTnpRY1pwaEl6UVQ2VUFQQjVyYjhNUHMxYmFDUUdRL3BXR0Q2MWYwaVh5dFVpY0hwa1VEUjZaRzJHUDUxb3dOa0Exa3hNU0ZJN2dWcFc1emdFMHgzTGN0dkhkUW1PVmR5bm9lNm4xcm5ybXprc1p0ampLbmxHSFJoWFNwK2xPbXQ0cmlFeHpKbGY1Vk1vM1JjSnRISkhCVTFHUUswYjdTcExiNW96dlhQNVZtYnh1S2tFRWRqWFBLTFIxUmttUFFsVDdWTUQ2ZGFpR09LbkM4Q29OQlZHYUNwejA0cVFjZDZWTGU1dW0yd3Bubkc0OUJWeGpjbHlTSTFWbVlKR3BaMjRDaXVrMHpTVXRRSnB2bW5JeU05RnArbmFYSFlLRGt2TVI4ekd0RURhSzZZd3NjdFNvM29OSXgxNjFISjBxUnVhZ2xPSzJTc1lGZHp6VVJwNSs5VFc2R21JaGM0QjlxNWZ4ZzJOSktBOFlCUDRtdW1ZRWdqL0pyaS9HY2lMQ0ZMRXNUdEdEM0ZKZ2NPN2NENmRhak5Qa3dCZ2RCVUpOWlNlbzBPemlselRNMGU5U0F1ZWFjS1pubmlsSEZBRGdjR25Cam1tNXBvTk80RW03cFRzNEJwZzZjVW1mZWk0RGd4TktHUHJUQ3hJbzYwZ0pnM3ZUc2dpb2hqRkdlZVRUQUNhYm1ta25OTG1rTU85S0tURkZBQzBoNjBuYWpOQWdKb3BLUTB4MkZOSjlLTSszTkxTQUExS0RURDFwUnpRQXBiSm9HZTFGS000b0N3b0pOV3JKdHQxR3dPTnZPYXFEclU5czJKa1BUbkgxelRFZW1XemJvVWJHRHQ1L0Qvd0RYV3BhdG1zYlRuMzJhQTdpUndTYTFMZHNIQTlNWTlhWXpXUTRVWXFReXBIRzBranFxTHlXYnBWQ2E4aHNyY3p6T0ZSZWZyWERhcjRqbjFKLzNiTXNJNFZPMzQwMEIyYyt1dzV4REMwby92TTJQeTROVm5XMjFWZHhqYUdZZnhMMC8rdlhMUmE0N0VJSUFDcThscVI5VWVhUUxIYytVM1RDakgrZWxKeFJjVzFzZEkrbHp4cm1OMWtBLzRDYVlpU0JzTWpLM29lUDFybFpKNzFtM0c4bWJQSXc1SDlhcm05dTQyWlRQTURqRzEySjYxbTRKbXFxNkhlUlFEY0drWGNBYzR6MSt0TEw0bXR0T204dVdGbVFjQXhzTWo4T0s0dTNlMXVXQ1RGbzVXSERCdmxOVjd1Mmt0Ry9lZ01wNk4yTlZHS1JtNVhQV2RPMWl3MUpjMnR3ck4zVThNSzBNa0hCcnhDS1lvNGVOMlNSVGxXVTRPYTdIUmZIRWtSVzIxSU5LdjNSS281SDE5ZnJXcWJNMjduZU1TT2FyU25OT1M1aXVJVm1oY05FNDNLd3FOenU1cTczSklpT2VCVFd6VWdGTWZ2UUJBL0hQWUFtdk9QR0VydGVSeGpCR2R3NDlhOUVuSjh0Z080d2E4eDhVeWJ0VkFCenRCRkpnWUJPNG5QNFZHZUQwcHhQTk5QSnJHUXhENjBBNUhXa09jMFo3RHJTQVVjR2pyelNEcHlhQWFBSFVHa3pTMERBVXZXbTBaNW9FTHptbDZVM05CTkFEdTlLRGltQW1uWm9BQjcwWndmYWlrTkFDbm1pa0JwTTBBaGMwVWdPYVdnQXBDYURTRTgwRFF1YUtNMFVBRkFPS0FLVHZRQXVjMEEwQWpPS1dnQlJWbTFKTTZIY0Z4emtqMHhWWVZZdHpoMTQ2bkhXcVFqMExURy8wUWNkV3pXdEV3WEpQQTlmU3NiU2R4czBKSEl4bjhLdTNMNGhNWVBMY0UrZzcvblFsY2Q3R0xyTThtclM3QTdMQ3VRaWpvM1RyK1ZZUlNTRnloWERqcm11bit5TXB5QW9BN0E4MVcxS3lNOXFXaktpVk9jNDVJK3RXMVpFcVZ6S2lNNjhvcU1TTVliSHI5YWVKWjkvK2syMjBEb3lxQVB6clBXNm1pR1VjcjdkUlZ5TFZac0JaZm1VZDFHQ01kNnp1V21QZnlaUVJFeFU0SngzR0tXS1psZHJYVWNORTMzWFZmdTFNK25yZUswMXBLcHp5Vjk2WTdpNnR2czh5N1prT0EzR2MweE5sRy90V3M1Z2hZTWhHNUdIcFU4Vnd0OWF0YlRFK1pHTXEyZXc3MDI0TE5hckZJdjd5UG8zYzQvOEFyWnBtbVF5eTMwY1VLRm5iNWNESFFubXJqRzVFcFdDeXNKNys1V0dCTWs0M0hzdGRyYmVHN1MwaENrYnBPak1ldWF2NlpwY09uUWhJMXpJM0xNUjFyU0NJQmcxdW9wRVhaaVdyVDZhKzJOeVVIR3h1aEZiMEYxSGRRaVNNNFBSbDdxYW96d0tRY0RJclBWNWJTYmZHZWU0UFJoVXVLM1JTWjBJUE5OZmtWQmJYYVhTRmt5ckw5NVQxRlRNM0ZTVVU3bGd2WEgwcnluWFpSTHEweEJPMEhpdlQ3OTlrTE9SeUFldmF2S05VYmRxVndTTWZQeCtQTlJKZ1VDZm1OTkpvSkpQSFdnMW14aUUwM1BOT0lwdUtRQUtkVGNVdmFnWTRkYVdtWjlLWE5BQlIwNUZKbWpOQUJrMG95S1RQTktUUUZoYzBaelRPYWQwTkFoNVBQU2twTTBab0FXazYwbWNtbHhRQUdnVUFEMXBUeDJvR056elNZNXB4NTdVZ1BOQUNta1BXaWp0UUF1YVFVdUtLQUVPY1VvNlVob0dhQUZYazFaZ1VieGtkNnJqclZ1eWplYTdqalRrc2NZeG5yVlIxQm5kNlEyTE5uWnNJby84QXIxYXR3YnBQTUhRbkdQUTFERkFxUUxBbjNWSFB1ZTlXck1HQm1VOEszemZRMW9sWWh1NUw1SngwTlZwMUNLY3B1QkdEaXRIUEFOUlNvT29vYnVDUndWN1p2Qk01QzRSaVNEVmNjREg0VjErbzJjZHpheU95amNxbHR3OWhYTHhJc3lxUjk0ZHF6YXNXaExkM2dsV2FKaXJEcnp3UjZHck1zbjJoUzY0VnU0SEJ6M3BqSVZYa1lGVjAzcE1vVVpMSGJqMS96eFJGWFltN0V5NzVwQW0wbVJqdEFIWEpydS9EK2hwcGtQblNMdXVYQTNIKzZLcDZMcHdzME1wUWVhemJobnIvQUo1TmRCRXo1eWVmZXVpS1NSazFkM0xLeGo4ZmFncmcwNUhBSE5PSkJwdGpJaW00WXhVRDJnY0g1UitOWFJnMEhGSzQ3R00xcE5hc0pJaVdaZWZscXpEZHJQSC9BSFpCOTVmcDZlMVhTdVR4VkM1Z0N5Q1dNQlNPb0h0U2Rob282dXltMWtHNytIc2VPOWVWWGI3N3FadW9MWXpYcGVwTjU5bzZnZnZGQkJIcUs4dmsrWUU1ems1ck9US0kvcFNFVWRLVHJXWVdFUFdnR2lpa0FFMFVocFFlS0JpZDZPYzBVVUFLRFJTQ2c1b0FVRHZSU0JxTVpvQUFUMnBhS1EwQ0hFMHZVVWg2MG9GQTdDQVVwRkhUcFNVQUI0bzNVaG94elFBdEozcFNLVEZBRHFRODBkS00wQUZGRkI5cUFDbDZVZ3BmNTBBS0FLMS9EekJkWFFrWitSaC9Lc2NWcmFBUCtKdkZnWnlwcW9pTzlnSTRQWEk2K3RXQ21SbXE5c3UwZmlhdklNaXRMaXNJaHl1RDFGTVpoOTAxTVU3aW9KRjNEamxxbHNhUlV2TXBhenR5VjJOeU8zRmNiYnNGSTZnK2xkQnJOKzBFUDJWVGg1Qjh4UFlWemhHd2pCNmNWSUY2Ujk2YmVPYTAvRFdsQzcxQjVKRnlJZ0NNOU1tc0FPN3VxLzNpRkE5U2E2N3d0SjVCdUZZOHN3NTlxdU9nbnFkRjluS3ljTHdlbUtzcEdWeFVxSGpCNjA4QVZwY1ZoZ1RJcENyWTROVEFjZEthY0NnTEVJM2lsM2tIbk5PTklRS1RZSkNlWU8xUXl1TUVuM1A2R3BTQjZWV3VlVlBwVXRqU01HZFZKa2ZMWUtzVCtWZVl1MjRuQXdDVGdWNmRxQkVWamN2M0ViWS9Ldk1UMEdhaHNaR2FiVGoxcHRRd0Npa3pRYUJpZDZkVFMyRFNrNDVvQVR2Uy9XazNjWnB1YzlxQUhGdWFRa252UlNIcFFBZDZjQ2FRRVlwTTROQUllT3RMVFJtZ24wNjBBZi9a</oa:EmbeddedData>
+            <oa:FileType>photo</oa:FileType>
+            <hr:Instructions>ProfilePicture</hr:Instructions>
+        </eures:Attachment>
+        <CreativeWorks/>
+        <Projects/>
+        <SocialAndPoliticalActivities/>
+        <CommunicationAndInterpersonalSkills>
+            <CommunicationAndInterpersonalSkill>
+                <Title>Communication and interpersonal skills</Title>
+                <Description>&lt;p&gt;Good communication skills gained through my studies, contacts with colleagues in numerous work, social, travel, reading, listening and watching experiences&lt;/p&gt;</Description>
+            </CommunicationAndInterpersonalSkill>
+        </CommunicationAndInterpersonalSkills>
+        <OrganisationalSkills>
+            <OrganisationalSkill>
+                <Title>Organisational skills</Title>
+                <Description>&lt;p&gt;Good organisational&amp;nbsp;skills gained through my studies, contacts with colleagues in numerous work, social, travel, reading, listening and watching experiences&lt;/p&gt;
+&lt;p&gt;Good managerial skills gained through my team work and teaching experiences in the public and private domains, in financial, banking, industrial, telecommunications and social sectors&lt;/p&gt;</Description>
+            </OrganisationalSkill>
+        </OrganisationalSkills>
+        <DigitalSkills>
+            <DigitalSkillsGroup/>
+        </DigitalSkills>
+        <NetworksAndMemberships/>
+        <ConferencesAndSeminars/>
+        <VoluntaryWorks/>
+        <Others>
+            <Title>Job-related skills</Title>
+            <Other>
+                <Title>Job-related skills</Title>
+                <Description>&lt;p&gt;As a 20 years' IT professional, I have mastered most of the operational methodologies and functional needs for all the people I had the honour to serve or train in financial, industrial, social and educational sectors&lt;/p&gt;</Description>
+            </Other>
+        </Others>
+    </CandidateProfile>
+</Candidate>
