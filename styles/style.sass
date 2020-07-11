@@ -76,13 +76,13 @@ main
   border-radius: 3px
   box-shadow: 10px 10px 5px grey
   .bkgimage
-    background: url('../images/prairie.bmp')
-    opacity: 0.6
+    // background: url('../images/prairie.bmp')
+    // opacity: 0.6
     .content
-      color: white
+      color: black
       font-family: Verdana, Geneva, Tahoma, sans-serif
       a
-        color: #ddd
+        // color: #ddd
         // text-decoration: none
       .identity
         .candidate
@@ -111,41 +111,17 @@ main
         font-weight: bold
         font-style: italic
         font-size: 12pt
-      .experience
-        .item
-          margin-top: 0.5rem
-          .line
-            display: flex
-          .period
-            display: flex
-            width: 20%
-          .position
-            // margin-left: 3rem
-            font-weight: bold
-            text-transform: uppercase
-            text-decoration: underline
-            width: 40%
-          .employer
-            display: flex
-            // margin-left: 1rem
-            .contact
-              display: flex
-              // margin-left: 1rem
-              .city
-                margin-left: 1rem
-              .country
-                margin-left: 1rem
-          .activities
-            margin-top: 0.25rem
 
-      .education
+      .experience, .education
         .item
           margin-top: 0.5rem
           .line
             display: flex
             .period
-              display: inline-block
+              display: flex
               width: 20%
+              .dash
+                padding: 0 5pt
             .title
               // margin-left: 3rem
               font-weight: bold
@@ -162,8 +138,8 @@ main
                   margin-left: 1rem
                 .country
                   margin-left: 1rem
-          .activities
-            margin-top: 0.25rem
+            .activities
+              margin-top: 0.25rem
 
 // main::before 
 //   content: ""

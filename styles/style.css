@@ -100,18 +100,9 @@ main {
           box-shadow: 10px 10px 5px grey;
 }
 
-main .bkgimage {
-  background: url("../images/prairie.bmp");
-  opacity: 0.6;
-}
-
 main .bkgimage .content {
-  color: white;
+  color: black;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-main .bkgimage .content a {
-  color: #ddd;
 }
 
 main .bkgimage .content .identity .candidate {
@@ -164,97 +155,55 @@ main .bkgimage .content .objective {
   font-size: 12pt;
 }
 
-main .bkgimage .content .experience .item {
+main .bkgimage .content .experience .item, main .bkgimage .content .education .item {
   margin-top: 0.5rem;
 }
 
-main .bkgimage .content .experience .item .line {
+main .bkgimage .content .experience .item .line, main .bkgimage .content .education .item .line {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-main .bkgimage .content .experience .item .period {
+main .bkgimage .content .experience .item .line .period, main .bkgimage .content .education .item .line .period {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   width: 20%;
 }
 
-main .bkgimage .content .experience .item .position {
+main .bkgimage .content .experience .item .line .period .dash, main .bkgimage .content .education .item .line .period .dash {
+  padding: 0 5pt;
+}
+
+main .bkgimage .content .experience .item .line .title, main .bkgimage .content .education .item .line .title {
   font-weight: bold;
   text-transform: uppercase;
   text-decoration: underline;
   width: 40%;
 }
 
-main .bkgimage .content .experience .item .employer {
+main .bkgimage .content .experience .item .line .organisation, main .bkgimage .content .education .item .line .organisation {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-main .bkgimage .content .experience .item .employer .contact {
+main .bkgimage .content .experience .item .line .organisation .contact, main .bkgimage .content .education .item .line .organisation .contact {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-main .bkgimage .content .experience .item .employer .contact .city {
+main .bkgimage .content .experience .item .line .organisation .contact .city, main .bkgimage .content .education .item .line .organisation .contact .city {
   margin-left: 1rem;
 }
 
-main .bkgimage .content .experience .item .employer .contact .country {
+main .bkgimage .content .experience .item .line .organisation .contact .country, main .bkgimage .content .education .item .line .organisation .contact .country {
   margin-left: 1rem;
 }
 
-main .bkgimage .content .experience .item .activities {
-  margin-top: 0.25rem;
-}
-
-main .bkgimage .content .education .item {
-  margin-top: 0.5rem;
-}
-
-main .bkgimage .content .education .item .line {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-main .bkgimage .content .education .item .line .period {
-  display: inline-block;
-  width: 20%;
-}
-
-main .bkgimage .content .education .item .line .title {
-  font-weight: bold;
-  text-transform: uppercase;
-  text-decoration: underline;
-  width: 40%;
-}
-
-main .bkgimage .content .education .item .line .organisation {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-main .bkgimage .content .education .item .line .organisation .contact {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-main .bkgimage .content .education .item .line .organisation .contact .city {
-  margin-left: 1rem;
-}
-
-main .bkgimage .content .education .item .line .organisation .contact .country {
-  margin-left: 1rem;
-}
-
-main .bkgimage .content .education .item .activities {
+main .bkgimage .content .experience .item .line .activities, main .bkgimage .content .education .item .line .activities {
   margin-top: 0.25rem;
 }
 /*# sourceMappingURL=style.css.map */
