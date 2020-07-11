@@ -232,7 +232,7 @@ const euroPassDocument01 = [
         Description: {
           Label: 'Full-Stack developer',
           Mission:
-            'The full competence of leading-edge digital technology at your service',
+            'Apply the full efficiency of information technology to your business',
         },
       },
       WorkExperienceList: {
