@@ -1,0 +1,209 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: url("../images/borg_pattern_wallpaper.jpg");
+  font-size: 10pt;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: fixed;
+  top: 0;
+  height: 8vh;
+  width: 100%;
+  background-color: #5c83ee;
+  color: white;
+  border: 2px solid grey;
+  -webkit-box-shadow: 5px 5px 3px grey;
+          box-shadow: 5px 5px 3px grey;
+  background: -webkit-gradient(linear, left top, right bottom, from(#fa3232), to(#3296fa));
+  background: linear-gradient(to bottom right, #fa3232, #3296fa);
+  z-index: 1;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+header nav .menu {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+header nav .menu ul {
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+header nav .menu ul li {
+  margin-right: 1.5rem;
+}
+
+h1 {
+  font-size: 12pt;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 12pt;
+  font-weight: bold;
+  background-color: #3459be;
+  color: white;
+  text-transform: capitalize;
+}
+
+section {
+  margin-top: 1rem;
+}
+
+article {
+  margin-top: 0.5rem;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+main {
+  width: 90%;
+  min-width: 800px;
+  max-width: 1000px;
+  margin: 12vh auto;
+  padding: 50px;
+  background-color: #fff;
+  border: 1px solid grey;
+  border-radius: 3px;
+  -webkit-box-shadow: 10px 10px 5px grey;
+          box-shadow: 10px 10px 5px grey;
+}
+
+main .bkgimage .content {
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main .bkgimage .content .identity .candidate {
+  text-align: center;
+  font-weight: bold;
+}
+
+main .bkgimage .content .identity .candidate .candidatetitle {
+  font-size: 10pt;
+}
+
+main .bkgimage .content .identity .candidatecard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-style: italic;
+}
+
+main .bkgimage .content .identity .candidatecard .contact .address {
+  margin-bottom: 0.5rem;
+}
+
+main .bkgimage .content .identity .candidatecard .contact .media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+main .bkgimage .content .identity .candidatecard .photo {
+  width: 200px;
+}
+
+main .bkgimage .content .identity .candidatecard .photo img {
+  height: 80%;
+  display: block;
+  margin-left: auto;
+}
+
+main .bkgimage .content .objective {
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 12pt;
+}
+
+main .bkgimage .content .experience .item, main .bkgimage .content .education .item {
+  margin-top: 0.5rem;
+}
+
+main .bkgimage .content .experience .item .line, main .bkgimage .content .education .item .line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .bkgimage .content .experience .item .line .period, main .bkgimage .content .education .item .line .period {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 20%;
+}
+
+main .bkgimage .content .experience .item .line .period .dash, main .bkgimage .content .education .item .line .period .dash {
+  padding: 0 5pt;
+}
+
+main .bkgimage .content .experience .item .line .title, main .bkgimage .content .education .item .line .title {
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: underline;
+  width: 40%;
+}
+
+main .bkgimage .content .experience .item .line .organisation, main .bkgimage .content .education .item .line .organisation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .bkgimage .content .experience .item .line .organisation .contact, main .bkgimage .content .education .item .line .organisation .contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main .bkgimage .content .experience .item .line .organisation .contact .city, main .bkgimage .content .education .item .line .organisation .contact .city {
+  margin-left: 1rem;
+}
+
+main .bkgimage .content .experience .item .line .organisation .contact .country, main .bkgimage .content .education .item .line .organisation .contact .country {
+  margin-left: 1rem;
+}
+
+main .bkgimage .content .experience .item .line .activities, main .bkgimage .content .education .item .line .activities {
+  margin-top: 0.25rem;
+}
+/*# sourceMappingURL=style.css.map */
