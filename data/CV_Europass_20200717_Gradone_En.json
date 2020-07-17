@@ -1,0 +1,941 @@
+{
+  "id": "78e780e5-9dbe-4f50-a7ef-7e84efcaed2b",
+  "userId": "5f0093a76f25be064a428f59",
+  "url": "https://europa.eu/!Ht88cn",
+  "profile": {
+    "id": null,
+    "userId": "5f0093a76f25be064a428f59",
+    "language": "en",
+    "createdDateTime": null,
+    "defaultProfile": false,
+    "preference": {
+      "profileStructure": [
+        "work-experience",
+        "education-training",
+        "language",
+        "digital-skills",
+        "ea10e65f-cd17-4ea6-a83f-fdd3152188d3",
+        "communication-interpersonal-skills",
+        "organisational-skills",
+        "driving-licence"
+      ],
+      "dateFormat": "dd/MM/yyyy"
+    },
+    "personalInformation": {
+      "firstName": "Potito",
+      "lastName": "Gradone",
+      "personalMottoLine": null,
+      "personalDescription": null,
+      "dateOfBirth": {
+        "date": "1964-05-31",
+        "dateType": "DAY",
+        "empty": false
+      },
+      "sex": "male",
+      "nationalities": [
+        "it",
+        "lu"
+      ],
+      "addresses": [
+        {
+          "addressType": "home",
+          "addressName": null,
+          "addressPart1": "Am Hoirbock, 12",
+          "addressPart2": null,
+          "city": "Oberpallen",
+          "country": "lu",
+          "postalCode": "L-8552"
+        }
+      ],
+      "socialMediaWebsites": [],
+      "emails": [
+        "pgradone@gmail.com"
+      ],
+      "phones": [
+        {
+          "phonePrefix": {
+            "countryCode": "lu",
+            "prefix": 352
+          },
+          "phoneNumber": "691266208",
+          "phoneNumberType": "mobile",
+          "customPhoneNumberType": null
+        },
+        {
+          "phonePrefix": {
+            "countryCode": "lu",
+            "prefix": 352
+          },
+          "phoneNumber": "26620862",
+          "phoneNumberType": "home",
+          "customPhoneNumberType": null
+        }
+      ],
+      "websites": [
+        "https://pgradone-cvapp.netlify.app/"
+      ],
+      "instantMessengers": [
+        {
+          "provider": "skype",
+          "id": "pgradone",
+          "customProvider": null
+        }
+      ]
+    },
+    "drivingLicence": {
+      "licences": [
+        "B",
+        "BE"
+      ],
+      "mediaAttachments": []
+    },
+    "educationTrainings": [
+      {
+        "id": "f8696f11-d435-4639-b8eb-826a82724f8e",
+        "order": 7,
+        "qualification": "Fit4CodingJobs - Full Stack Dev bootcamp",
+        "organisationName": "NumericALL - CNFPC",
+        "streetAddress": {
+          "addressPart1": "1 Boulevard Charles de Gaulle",
+          "addressPart2": null
+        },
+        "postalCode": "L- 4083",
+        "city": "Esch-sur-Alzette",
+        "country": "lu",
+        "website": null,
+        "creationDate": "2020-07-04T18:21:56.75",
+        "startDate": {
+          "date": "2020-05-11",
+          "dateType": "DAY",
+          "empty": false
+        },
+        "endDate": {
+          "date": "2020-09-03",
+          "dateType": "DAY",
+          "empty": false
+        },
+        "ongoing": false,
+        "description": null,
+        "studyFields": [],
+        "finalGrade": null,
+        "thesis": null,
+        "eqf": "",
+        "nationalClassification": null,
+        "typeOfCredits": null,
+        "numberOfCredits": null,
+        "validUntil": null,
+        "mediaAttachments": [],
+        "links": []
+      },
+      {
+        "id": "114d3df8-1f61-4109-9def-dcca0c12b549",
+        "order": 1,
+        "qualification": "Qualif II IT",
+        "organisationName": "Centre de Recherche public Henry Tudor",
+        "streetAddress": {
+          "addressPart1": null,
+          "addressPart2": null
+        },
+        "postalCode": null,
+        "city": "Luxembourg",
+        "country": "lu",
+        "website": null,
+        "creationDate": "2020-07-04T17:39:28.509",
+        "startDate": {
+          "date": "1995-09-18",
+          "dateType": "DAY",
+          "empty": false
+        },
+        "endDate": {
+          "date": "1996-01-31",
+          "dateType": "DAY",
+          "empty": false
+        },
+        "ongoing": false,
+        "description": "<p>IT Systems Analysis practical training and qualification for Luxembourg Jobsearch</p> \n<p>Merise methodology, Networking, DBMS, SQL, 4GLs, object and service oriented techniques</p>",
+        "studyFields": [],
+        "finalGrade": null,
+        "thesis": null,
+        "eqf": "",
+        "nationalClassification": null,
+        "typeOfCredits": null,
+        "numberOfCredits": null,
+        "validUntil": null,
+        "mediaAttachments": [],
+        "links": []
+      },
+      {
+        "id": "18c1d77f-9bb4-4771-80b7-596f109d2c74",
+        "order": 2,
+        "qualification": "Master of Business Administration, Decision Sciences",
+        "organisationName": "Miami University",
+        "streetAddress": {
+          "addressPart1": null,
+          "addressPart2": null
+        },
+        "postalCode": null,
+        "city": "Oxford, OH",
+        "country": "us",
+        "website": null,
+        "creationDate": "2020-07-04T17:39:28.509",
+        "startDate": {
+          "date": "1993-09-01",
+          "dateType": "DAY",
+          "empty": false
+        },
+        "endDate": {
+          "date": "1995-07-15",
+          "dateType": "DAY",
+          "empty": false
+        },
+        "ongoing": false,
+        "description": "<p>MBA Focus Paper, Organisational Behaviour, HR recommendations</p> \n<p>IT, SQL, Database Management</p> \n<p>Focus paper on SQA - Suppliers Quality Assurance</p>",
+        "studyFields": [],
+        "finalGrade": null,
+        "thesis": null,
+        "eqf": "7",
+        "nationalClassification": null,
+        "typeOfCredits": null,
+        "numberOfCredits": null,
+        "validUntil": null,
+        "mediaAttachments": [],
+        "links": []
+      },
+      {
+        "id": "26b0fbf2-91fd-49a2-8969-99bf01c65571",
+        "order": 3,
+        "qualification": "Micro- & Macro-economics courses",
+        "organisationName": "Uni Lu",
+        "streetAddress": {
+          "addressPart1": null,
+          "addressPart2": null
+        },
+        "postalCode": null,
+        "city": "Luxembourg",
+        "country": "lu",
+        "website": null,
+        "creationDate": "2020-07-04T17:39:28.509",
+        "startDate": {
+          "date": "1992-09-15",
+          "dateType": "DAY",
+          "empty": false
+        },
+        "endDate": {
+          "date": "1993-07-15",
+          "dateType": "DAY",
+          "empty": false
+        },
+        "ongoing": false,
+        "description": "<p>Micro-economics, macro-economics. American economy, Information Technology</p> \n<p>Economics engineering&nbsp;textbooks, Desktop Publishing, Graphics on spreadsheets, Statistics</p>",
+        "studyFields": [],
+        "finalGrade": null,
+        "thesis": null,
+        "eqf": "",
+        "nationalClassification": null,
+        "typeOfCredits": null,
+        "numberOfCredits": null,
+        "validUntil": null,
+        "mediaAttachments": [],
+        "links": []
+      },
+      {
+        "id": "b0f031d5-4dbb-4ae9-b217-6c8cbc9133b6",
+        "order": 4,
+        "qualification": "Licence spéciale en Biologie Moléculaire et Biotechnologie",
+        "organisationName": "ULB",
+        "streetAddress": {
+          "addressPart1": null,
+          "addressPart2": null
+        },
+        "postalCode": null,
+        "city": "Bruxelles",
+        "country": "be",
+        "website": null,
+        "creationDate": "2020-07-04T17:39:28.509",
+        "startDate": {
+          "date": "1989-09-15",
+          "dateType": "DAY",
+          "empty": false
+        },
+        "endDate": {
+          "date": "1991-09-13",
+          "dateType": "DAY",
+          "empty": false
+        },
+        "ongoing": false,
+        "description": "<p>Chemical synthesis and non radioactive labelling of deoxy-oligonucleotides.</p> \n<p>Phosphoramidite synthesis chemistry, DNA purification &amp; analytical techniques (blots…)</p>",
+        "studyFields": [],
+        "finalGrade": null,
+        "thesis": null,
+        "eqf": "7",
+        "nationalClassification": null,
+        "typeOfCredits": null,
+        "numberOfCredits": null,
+        "validUntil": null,
+        "mediaAttachments": [],
+        "links": []
+      },
+      {
+        "id": "21c46b0f-0db5-4960-81cd-457f0d287906",
+        "order": 5,
+        "qualification": "Laurea IN BIOLOGY",
+        "organisationName": "Università degli Studi di URBINO",
+        "streetAddress": {
+          "addressPart1": null,
+          "addressPart2": null
+        },
+        "postalCode": null,
+        "city": "Urbino",
+        "country": "it",
+        "website": null,
+        "creationDate": "2020-07-04T17:39:28.509",
+        "startDate": {
+          "date": "1982-09-15",
+          "dateType": "DAY",
+          "empty": false
+        },
+        "endDate": {
+          "date": "1988-03-03",
+          "dateType": "DAY",
+          "empty": false
+        },
+        "ongoing": false,
+        "description": "<p>Biological Sciences,</p> \n<p>Focus paper in Organic Chemistry, on Pyrrhole Synthesis</p> \n<p>Urinary analyses of immunity-suppressed patients undergoing bone marrow transplants</p> \n<p>Electrophoresis, cell-staining, microscopic analyses, various clinical techniques</p> \n<p>Effects of vitamin E on rats’ sciatic nerve regeneration.</p>",
+        "studyFields": [],
+        "finalGrade": null,
+        "thesis": null,
+        "eqf": "6",
+        "nationalClassification": null,
+        "typeOfCredits": null,
+        "numberOfCredits": null,
+        "validUntil": null,
+        "mediaAttachments": [],
+        "links": []
+      },
+      {
+        "id": "28ff49e7-e0af-40c4-a1a5-ea3c0a46dbd5",
+        "order": 6,
+        "qualification": "European School Bac Math, Sciences, Languages",
+        "organisationName": "Ecole Européenne Luxembourg",
+        "streetAddress": {
+          "addressPart1": null,
+          "addressPart2": null
+        },
+        "postalCode": null,
+        "city": "Luxembourg",
+        "country": "lu",
+        "website": null,
+        "creationDate": "2020-07-04T17:39:28.509",
+        "startDate": {
+          "date": "1980-09-15",
+          "dateType": "DAY",
+          "empty": false
+        },
+        "endDate": {
+          "date": "1982-07-31",
+          "dateType": "DAY",
+          "empty": false
+        },
+        "ongoing": false,
+        "description": "<p>Mathematics, Sciences, Languages</p>",
+        "studyFields": [],
+        "finalGrade": null,
+        "thesis": null,
+        "eqf": "4",
+        "nationalClassification": null,
+        "typeOfCredits": null,
+        "numberOfCredits": null,
+        "validUntil": null,
+        "mediaAttachments": [],
+        "links": []
+      }
+    ],
+    "workExperiences": [
+      {
+        "id": "9c293c42-ff62-4926-bce9-58cd7b8e244b",
+        "order": 0,
+        "occupation": {
+          "label": "Senior IT Consultant",
+          "uri": null
+        },
+        "employer": "Taleo Consulting",
+        "city": null,
+        "country": null,
+        "creationDate": "2020-07-04T17:39:28.509",
+        "startDate": {
+          "date": "2018-03-22",
+          "dateType": "DAY",
+          "empty": false
+        },
+        "endDate": {
+          "date": "2019-10-31",
+          "dateType": "DAY",
+          "empty": false
+        },
+        "ongoing": false,
+        "mainActivities": "<p>Projects:</p> \n<p>- CNMV Legal reporting for Spain, Edmond de Rothchild</p> \n<p>- WKFS Support, Eurobank</p> \n<p>- RaRoc Risk Adjusted Return on Capital&nbsp;Legal reporting, BIL</p> \n<p>- IDD Risk calculator GLFI, SocGen Life Insurance Brokers</p> \n<p>Technologies:</p> \n<p>Streamlining, Agile, Jira, interfacing, documentations, VBA, SQL, Microsoft Access, Excel,&nbsp;WKFS, Olympic–Avaloq, XML, migration, consolidations, JavaScript</p>",
+        "organisationDepartment": null,
+        "organisationBusinessSector": null,
+        "organisationWebsite": null,
+        "organisationContactEmail": null,
+        "organisationAddress": {
+          "addressPart1": "",
+          "addressPart2": "",
+          "city": "Luxembourg",
+          "country": "lu",
+          "postalCode": ""
+        },
+        "mediaAttachments": [],
+        "links": []
+      },
+      {
+        "id": "32e83c98-22cc-46be-aeed-f7f09927a64a",
+        "order": 0,
+        "occupation": {
+          "label": "IT Officer",
+          "uri": null
+        },
+        "employer": "Fonds National de Solidarité",
+        "city": null,
+        "country": null,
+        "creationDate": "2020-07-04T17:39:28.509",
+        "startDate": {
+          "date": "2012-10-01",
+          "dateType": "DAY",
+          "empty": false
+        },
+        "endDate": {
+          "date": "2017-12-31",
+          "dateType": "DAY",
+          "empty": false
+        },
+        "ongoing": false,
+        "mainActivities": "<p>Helpdesk, VBA Macros &amp; Maintenance, Hardware &amp; Software management, IT procedures</p> \n<p>MySQL, Linux server, VBA &amp; Macros dev, VB.NET, Data protection, Typo3, documentation</p>",
+        "organisationDepartment": null,
+        "organisationBusinessSector": null,
+        "organisationWebsite": null,
+        "organisationContactEmail": null,
+        "organisationAddress": {
+          "addressPart1": "",
+          "addressPart2": "",
+          "city": "Luxembourg",
+          "country": "lu",
+          "postalCode": ""
+        },
+        "mediaAttachments": [],
+        "links": []
+      },
+      {
+        "id": "88bba09f-0f4d-48b8-9b43-faca0891d4c7",
+        "order": 0,
+        "occupation": {
+          "label": "Chargé d'Éducation, Sciences Naturelles",
+          "uri": null
+        },
+        "employer": "Lycée Technique Mathias Adam",
+        "city": null,
+        "country": null,
+        "creationDate": "2020-07-04T17:39:28.509",
+        "startDate": {
+          "date": "2011-09-15",
+          "dateType": "DAY",
+          "empty": false
+        },
+        "endDate": {
+          "date": "2012-09-14",
+          "dateType": "DAY",
+          "empty": false
+        },
+        "ongoing": false,
+        "mainActivities": "<p>Courses in Natural Sciences for high-school students, classes 8 to 10, MSOffice Suite, Tools for school management</p>",
+        "organisationDepartment": null,
+        "organisationBusinessSector": null,
+        "organisationWebsite": null,
+        "organisationContactEmail": null,
+        "organisationAddress": {
+          "addressPart1": "",
+          "addressPart2": "",
+          "city": "Pétange",
+          "country": "lu",
+          "postalCode": ""
+        },
+        "mediaAttachments": [],
+        "links": []
+      },
+      {
+        "id": "dcbff166-954f-41a7-b5fe-c98cb171fbea",
+        "order": 0,
+        "occupation": {
+          "label": "Assistant Manager, Automation",
+          "uri": null
+        },
+        "employer": "Fidelity",
+        "city": null,
+        "country": null,
+        "creationDate": "2020-07-04T17:39:28.509",
+        "startDate": {
+          "date": "2011-05-01",
+          "dateType": "DAY",
+          "empty": false
+        },
+        "endDate": {
+          "date": "2011-08-08",
+          "dateType": "DAY",
+          "empty": false
+        },
+        "ongoing": false,
+        "mainActivities": "<p>Funds Administration, Finance, Accounting, Helpdesk &amp; NAV signup</p> \n<p>Microsoft SQL Server 2008, Excel-Access VBA, .NET</p>",
+        "organisationDepartment": null,
+        "organisationBusinessSector": null,
+        "organisationWebsite": null,
+        "organisationContactEmail": null,
+        "organisationAddress": {
+          "addressPart1": "",
+          "addressPart2": "",
+          "city": "Luxembourg",
+          "country": "lu",
+          "postalCode": ""
+        },
+        "mediaAttachments": [],
+        "links": []
+      },
+      {
+        "id": "5e394d13-4549-4a2a-85da-c6c35d08160d",
+        "order": 0,
+        "occupation": {
+          "label": "IT Developer",
+          "uri": null
+        },
+        "employer": "John Deere",
+        "city": null,
+        "country": null,
+        "creationDate": "2020-07-04T17:39:28.509",
+        "startDate": {
+          "date": "2007-03-12",
+          "dateType": "DAY",
+          "empty": false
+        },
+        "endDate": {
+          "date": "2010-12-31",
+          "dateType": "DAY",
+          "empty": false
+        },
+        "ongoing": false,
+        "mainActivities": "<p>Oracle, PL/SQL, TOAD, MS-Access VBA, MSOffice Applications Design &amp; Re Engineering</p> \n<p>FRS/FRG (WKFS) data foundation Interfacing with Lynx/TE and Oracle Financials Trial Balance</p> \n<p>Financial, Operations Marketing &amp; Legal Reporting, Helpdesk, MIS data mapping</p>",
+        "organisationDepartment": null,
+        "organisationBusinessSector": null,
+        "organisationWebsite": null,
+        "organisationContactEmail": null,
+        "organisationAddress": {
+          "addressPart1": "",
+          "addressPart2": "",
+          "city": "Luxembourg",
+          "country": "lu",
+          "postalCode": ""
+        },
+        "mediaAttachments": [],
+        "links": []
+      },
+      {
+        "id": "799bc12a-2112-4efa-9c01-2ea603b2210e",
+        "order": 0,
+        "occupation": {
+          "label": "Software Engineer",
+          "uri": null
+        },
+        "employer": "Vision IT",
+        "city": null,
+        "country": null,
+        "creationDate": "2020-07-04T17:39:28.509",
+        "startDate": {
+          "date": "2006-03-01",
+          "dateType": "DAY",
+          "empty": false
+        },
+        "endDate": {
+          "date": "2006-09-14",
+          "dateType": "DAY",
+          "empty": false
+        },
+        "ongoing": false,
+        "mainActivities": "<p>Project MPG/Ferrero Schoppach:</p> \n<p>Migration from Oracle Applications to SAP,&nbsp;Maintenance for Purchasing, Helpdesk, Support,&nbsp;Development, DBA</p> \n<p>Technologies:</p> \n<p>Oracle Applications, PL/SQL, Unix, TOAD, Oracle Developer Suite, Business Objects</p>",
+        "organisationDepartment": null,
+        "organisationBusinessSector": null,
+        "organisationWebsite": null,
+        "organisationContactEmail": null,
+        "organisationAddress": {
+          "addressPart1": "",
+          "addressPart2": "",
+          "city": "Bertrange",
+          "country": "lu",
+          "postalCode": ""
+        },
+        "mediaAttachments": [],
+        "links": []
+      },
+      {
+        "id": "6b3f3771-af58-4920-9600-30d115cdb279",
+        "order": 0,
+        "occupation": {
+          "label": "Applications Analyst",
+          "uri": null
+        },
+        "employer": "BGL-Fortis",
+        "city": null,
+        "country": null,
+        "creationDate": "2020-07-04T17:39:28.509",
+        "startDate": {
+          "date": "2005-09-15",
+          "dateType": "DAY",
+          "empty": false
+        },
+        "endDate": {
+          "date": "2006-03-15",
+          "dateType": "DAY",
+          "empty": false
+        },
+        "ongoing": false,
+        "mainActivities": "<p>-&nbsp;MS-Access, VB, ORACLE, Unix, Sybase, Excel, TOAD, RBAC modelling for migrations</p> \n<p>-&nbsp;Financial Reporting, Re-branding, Office97-XP migrations, Helpdesk, Project management</p> \n<p>-&nbsp;RBAC (Role-Based Access Control) modelling,migrations of MS Access Databases</p> \n<p>-&nbsp;IT Security Management, data protection &amp; Applications Security Assessments</p> \n<p>-&nbsp;Rebranding financial accounting reports from IAS to IFRS for CSSF and internal needs</p> \n<p>-&nbsp;Normalization consolidation and interfacing of operational applications for internal accounts</p>",
+        "organisationDepartment": null,
+        "organisationBusinessSector": null,
+        "organisationWebsite": null,
+        "organisationContactEmail": null,
+        "organisationAddress": {
+          "addressPart1": "",
+          "addressPart2": "",
+          "city": "Luxembourg",
+          "country": "lu",
+          "postalCode": ""
+        },
+        "mediaAttachments": [],
+        "links": []
+      },
+      {
+        "id": "26c6c035-a649-4b37-8f11-d8f7c899c489",
+        "order": 0,
+        "occupation": {
+          "label": "Operations Analyst",
+          "uri": null
+        },
+        "employer": "ING Bank",
+        "city": null,
+        "country": null,
+        "creationDate": "2020-07-04T17:39:28.509",
+        "startDate": {
+          "date": "2000-10-13",
+          "dateType": "DAY",
+          "empty": false
+        },
+        "endDate": {
+          "date": "2005-03-31",
+          "dateType": "DAY",
+          "empty": false
+        },
+        "ongoing": false,
+        "mainActivities": "<p>-&nbsp;Operations, Data warehousing, CRM, Development &amp; Maintenance, Reporting</p> \n<p>-&nbsp;MS-Access, VBA, MS-SQL Server, ORACLE, Word, Excel, Outlook, Lotus Notes</p> \n<p>-&nbsp;Migration, reengineering and consolidation of obsolete databases</p> \n<p>-&nbsp;Maintenance, security and application deployment for ING Milan, Prague and Curaçao</p> \n<p>-&nbsp;Helpdesk technical and user documentation for all client administration IT needs</p> \n<p>-&nbsp;Reengineering and consolidation of financial composites database</p> \n<p>-&nbsp;Restructuring and normalization of reports' layouts and historical contents</p> \n<p>-&nbsp;Statistics and graphics setup from financial data and reporting tool for Executive Management</p> \n<p>-&nbsp;Performance assessment and budgeting of evacuation and backup procedures</p>",
+        "organisationDepartment": null,
+        "organisationBusinessSector": null,
+        "organisationWebsite": null,
+        "organisationContactEmail": null,
+        "organisationAddress": {
+          "addressPart1": "",
+          "addressPart2": "",
+          "city": "Luxembourg",
+          "country": "lu",
+          "postalCode": ""
+        },
+        "mediaAttachments": [],
+        "links": []
+      },
+      {
+        "id": "9531956d-3a61-44cb-9b19-8081777fc348",
+        "order": 0,
+        "occupation": {
+          "label": "IT Engineer",
+          "uri": null
+        },
+        "employer": "P&T Consulting",
+        "city": null,
+        "country": null,
+        "creationDate": "2020-07-04T17:39:28.509",
+        "startDate": {
+          "date": "1998-11-23",
+          "dateType": "DAY",
+          "empty": false
+        },
+        "endDate": {
+          "date": "2000-10-20",
+          "dateType": "DAY",
+          "empty": false
+        },
+        "ongoing": false,
+        "mainActivities": "<p>Projects:</p> \n<p>- LUXGSM Base Station Subsystems, Applications Re Engineering &amp; Development</p> \n<p>- MAGUI – Machine de Guichet, Upgrading Y2K &amp; Euro, Client Machines Install &amp; Configure</p> \n<p>Technologies:</p> \n<p>AMC Designor, Access VBA Client/Server, Corporate Data Control &amp; Validation- Unix, MSDOS, Datafit DP4, Excel</p>",
+        "organisationDepartment": null,
+        "organisationBusinessSector": null,
+        "organisationWebsite": null,
+        "organisationContactEmail": null,
+        "organisationAddress": {
+          "addressPart1": "",
+          "addressPart2": "",
+          "city": "Luxembourg",
+          "country": "lu",
+          "postalCode": ""
+        },
+        "mediaAttachments": [],
+        "links": []
+      },
+      {
+        "id": "b87c6c4c-f5b9-44d7-a1a6-192ec1530cf5",
+        "order": 0,
+        "occupation": {
+          "label": "IT Developer",
+          "uri": null
+        },
+        "employer": "Transcom (Transac)",
+        "city": null,
+        "country": null,
+        "creationDate": "2020-07-04T17:39:28.509",
+        "startDate": {
+          "date": "1996-09-30",
+          "dateType": "DAY",
+          "empty": false
+        },
+        "endDate": {
+          "date": "1998-02-28",
+          "dateType": "DAY",
+          "empty": false
+        },
+        "ongoing": false,
+        "mainActivities": "<p>MACH project</p> \n<p>- Multinational Automated Clearing House, reporting</p> \n<p>- maintenance, interfacing&nbsp;&amp; developments in GSM SMS call data mining</p> \n<p>- Digital VAX/VMS scripting,</p> \n<p>- PL/SQL, SQLPlus reporting, Oracle Developer 2000, Access</p>",
+        "organisationDepartment": null,
+        "organisationBusinessSector": null,
+        "organisationWebsite": null,
+        "organisationContactEmail": null,
+        "organisationAddress": {
+          "addressPart1": "",
+          "addressPart2": "",
+          "city": "Dudelange",
+          "country": "lu",
+          "postalCode": ""
+        },
+        "mediaAttachments": [],
+        "links": []
+      },
+      {
+        "id": "710989d4-3ebe-4ddf-b923-146619b54f07",
+        "order": 0,
+        "occupation": {
+          "label": "Analyst Programmer",
+          "uri": null
+        },
+        "employer": "Infodata",
+        "city": null,
+        "country": null,
+        "creationDate": "2020-07-04T17:39:28.509",
+        "startDate": {
+          "date": "1996-02-01",
+          "dateType": "DAY",
+          "empty": false
+        },
+        "endDate": {
+          "date": "1996-08-31",
+          "dateType": "DAY",
+          "empty": false
+        },
+        "ongoing": false,
+        "mainActivities": "<p>Projects:</p> \n<p>- SCIERIX, TDK, Ticketing, Consulting, Migrations</p> \n<p>- PC configuration, User Training</p> \n<p>Technologies:</p> \n<p>MSDos, SB+ under Pick OS,&nbsp;Omnidirectional DBMS</p>",
+        "organisationDepartment": null,
+        "organisationBusinessSector": null,
+        "organisationWebsite": null,
+        "organisationContactEmail": null,
+        "organisationAddress": {
+          "addressPart1": "",
+          "addressPart2": "",
+          "city": "Luxembourg",
+          "country": "lu",
+          "postalCode": ""
+        },
+        "mediaAttachments": [],
+        "links": []
+      }
+    ],
+    "publications": [],
+    "conferenceSeminars": [],
+    "customSections": [
+      {
+        "id": "ea10e65f-cd17-4ea6-a83f-fdd3152188d3",
+        "title": "Compétences liées à l’emploi",
+        "records": [
+          {
+            "id": "0aa3667a-4786-481f-bd63-5a4e01361299",
+            "title": "Compétences liées à l’emploi",
+            "startDate": null,
+            "endDate": null,
+            "ongoing": false,
+            "content": "<p>As a 20 years' IT professional, I have mastered most of the operational methodologies and functional needs for all the people I had the honour to serve or train in financial, industrial, social and educational sectors</p>",
+            "links": null,
+            "mediaAttachments": null
+          }
+        ]
+      }
+    ],
+    "memberships": [],
+    "socialOrPoliticalActivities": [],
+    "languageSkills": {
+      "id": null,
+      "nativeLanguages": [
+        {
+          "languageCategory": "NORMAL",
+          "language": "ita",
+          "mediaAttachments": []
+        }
+      ],
+      "otherLanguages": [
+        {
+          "languageCategory": "NORMAL",
+          "language": "fre",
+          "listening": "C2",
+          "reading": "C2",
+          "spokenInteraction": "C2",
+          "spokenProduction": "C2",
+          "writing": "C2",
+          "mediaAttachments": []
+        },
+        {
+          "languageCategory": "NORMAL",
+          "language": "eng",
+          "listening": "C2",
+          "reading": "C2",
+          "spokenInteraction": "C1",
+          "spokenProduction": "C1",
+          "writing": "C1",
+          "mediaAttachments": []
+        },
+        {
+          "languageCategory": "NORMAL",
+          "language": "ger",
+          "listening": "B2",
+          "reading": "B2",
+          "spokenInteraction": "B1",
+          "spokenProduction": "B1",
+          "writing": "B1",
+          "mediaAttachments": []
+        },
+        {
+          "languageCategory": "FREE_TEXT",
+          "language": "Luxembourgish",
+          "listening": "B2",
+          "reading": "B2",
+          "spokenInteraction": "B1",
+          "spokenProduction": "B1",
+          "writing": "B1",
+          "mediaAttachments": []
+        }
+      ]
+    },
+    "honoursAwards": [],
+    "projects": [],
+    "digitalSkills": {
+      "other": [],
+      "groups": [
+        {
+          "name": "Development",
+          "skills": [
+            "ProDo",
+            "Microsoft Office",
+            "Microsoft Access",
+            "CSS",
+            "VSCode",
+            "WKFS",
+            "HTML",
+            "SASS",
+            "Java",
+            "VBNET",
+            "Javascript",
+            "4GLs",
+            "Pick"
+          ]
+        },
+        {
+          "name": "Networks",
+          "skills": [
+            "Ethernet",
+            "Social Media",
+            "Video call and conference softwares (Skype Zoom)"
+          ]
+        },
+        {
+          "name": "Databases",
+          "skills": [
+            "MS Sql Server",
+            "Oracle",
+            "plsql",
+            "Windows OS",
+            "Datafit DP4",
+            "Pick ODBMS",
+            "Sybase",
+            "SQL"
+          ]
+        },
+        {
+          "name": "Systems",
+          "skills": [
+            "Windows",
+            "Linux Environment",
+            "MS-DOS",
+            "Unix"
+          ]
+        },
+        {
+          "name": "Analysis & Methodology",
+          "skills": [
+            "Jira",
+            "agile",
+            "Merise",
+            "CASE",
+            "ITIL",
+            "Business Object Analyst",
+            "Training",
+            "Crystal Reports"
+          ]
+        },
+        {
+          "name": "Various",
+          "skills": [
+            "Helpdesk",
+            "Multimedia",
+            "Hardware",
+            "Tech Desk"
+          ]
+        }
+      ],
+      "mediaAttachments": []
+    },
+    "recommendations": [],
+    "hobbiesInterests": [],
+    "managementLeaderships": [],
+    "organisationalSkills": [
+      {
+        "id": "28117cbb-6c52-42cb-81e9-d4c23973cf2f",
+        "order": 0,
+        "title": "Compétences en matière d’organisation",
+        "description": "<p>Good organisational&nbsp;skills gained through my studies, contacts with colleagues in numerous work, social, travel, reading, listening and watching experiences</p> \n<p>Good managerial skills gained through my team work and teaching experiences in the public and private domains, in financial, banking, industrial, telecommunications and social sectors</p>",
+        "mediaAttachments": null,
+        "links": null
+      }
+    ],
+    "creativeWorks": [],
+    "communicationInterpersonalSkills": [
+      {
+        "id": "45bc7cc8-cdee-4fe8-9373-022416442bf9",
+        "order": 0,
+        "title": "Compétences interpersonnelles et en communication",
+        "description": "<p>Good communication skills gained through my studies, contacts with colleagues in numerous work, social, travel, reading, listening and watching experiences</p>",
+        "mediaAttachments": null,
+        "links": null
+      }
+    ],
+    "volunteering": []
+  },
+  "expiryDate": "2021-01-01T22:59:59.999"
+}
